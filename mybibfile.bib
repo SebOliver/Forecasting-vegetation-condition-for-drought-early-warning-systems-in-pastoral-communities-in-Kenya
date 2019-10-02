@@ -1,0 +1,957 @@
+@InProceedings{pmlr-v28-duvenaud13,
+  title = 	 {Structure Discovery in Nonparametric Regression through Compositional Kernel Search},
+  author = 	 {David Duvenaud and James Lloyd and Roger Grosse and Joshua Tenenbaum and Ghahramani Zoubin},
+  booktitle = 	 {Proceedings of the 30th International Conference on Machine Learning},
+  pages = 	 {1166--1174},
+  year = 	 {2013},
+  editor = 	 {Sanjoy Dasgupta and David McAllester},
+  volume = 	 {28},
+  number =       {3},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Atlanta, Georgia, USA},
+  month = 	 {17--19 Jun},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v28/duvenaud13.pdf},
+  url = 	 {http://proceedings.mlr.press/v28/duvenaud13.html},
+  abstract = 	 {Despite its importance, choosing the structural form of the kernel in nonparametric regression remains a black art. We define a space of kernel structures which are built compositionally by adding and multiplying a small number of base kernels. We present a method for searching over this space of structures which mirrors the scientific discovery process. The learned structures can often decompose functions into interpretable components and enable long-range extrapolation on time-series datasets. Our structure search method outperforms many widely used kernels and kernel combination methods on a variety of prediction tasks.}
+}
+
+
+@Article{bg-10-4055-2013,
+AUTHOR = {Kandasamy, S. and Baret, F. and Verger, A. and Neveux, P. and Weiss, M.},
+TITLE = {A comparison of methods for smoothing and gap filling time series of remote sensing observations ndash; application to MODIS LAI products},
+JOURNAL = {Biogeosciences},
+VOLUME = {10},
+YEAR = {2013},
+NUMBER = {6},
+PAGES = {4055--4071},
+URL = {https://www.biogeosciences.net/10/4055/2013/},
+DOI = {10.5194/bg-10-4055-2013}
+}
+
+@Article{rs10101502,
+AUTHOR = {Brooks, Evan B. and Wynne, Randolph H. and Thomas, Valerie A.},
+TITLE = {Using Window Regression to Gap-Fill Landsat ETM+ Post SLC-Off Data},
+JOURNAL = {Remote Sensing},
+VOLUME = {10},
+YEAR = {2018},
+NUMBER = {10},
+ARTICLE-NUMBER = {1502},
+URL = {http://www.mdpi.com/2072-4292/10/10/1502},
+ISSN = {2072-4292},
+ABSTRACT = {The continued development of algorithms using multitemporal Landsat data creates opportunities to develop and adapt imputation algorithms to improve the quality of that data as part of preprocessing. One example is de-striping Enhanced Thematic Mapper Plus (ETM+, Landsat 7) images acquired after the Scan Line Corrector failure in 2003. In this study, we apply window regression, an algorithm that was originally designed to impute low-quality Moderate Resolution Imaging Spectroradiometer (MODIS) data, to Landsat Analysis Ready Data from 2014&ndash;2016. We mask Operational Land Imager (OLI; Landsat 8) image stacks from five study areas with corresponding ETM+ missing data layers, using these modified OLI stacks as inputs. We explored the algorithm&rsquo;s parameter space, particularly window size in the spatial and temporal dimensions. Window regression yielded the best accuracy (and moderately long computation time) with a large spatial radius (a 7 &times; 7 pixel window) and a moderate temporal radius (here, five layers). In this case, root mean square error for deviations from the observed reflectance ranged from 3.7&ndash;7.6% over all study areas, depending on the band. Second-order response surface analysis suggested that a 15 &times; 15 pixel window, in conjunction with a 9-layer temporal window, may produce the best accuracy. Compared to the neighborhood similar pixel interpolator gap-filling algorithm, window regression yielded slightly better accuracy on average. Because it relies on no ancillary data, window regression may be used to conveniently preprocess stacks for other data-intensive algorithms.},
+DOI = {10.3390/rs10101502}
+}
+
+
+@article{royetal,
+author = {Roy, David and Wulder, Michael and Loveland, Thomas and Woodcock, C.E. and Allen, Richard and Anderson, Martha and Helder, Dennis and Irons, J.R. and Johnson, David and Kennedy, R and Scambos, Theodore and Schaaf, C.B. and Schott, J.R. and Sheng, Yongwei and Vermote, E and Belward, Alan and Bindschadler, Robert and Wohen, W.B. and Gao, Feng and Zhu, Zhe},
+year = {2014},
+month = {03},
+pages = {154-172},
+title = {Landsat-8: Science and Product Vision for Terrestrial Global Change Research},
+volume = {2014},
+journal = {Remote Sensing of Environment},
+doi = {10.1016/j.rse.2014.02.001}
+}
+
+@article{Cao:2018,
+title = "A simple method to improve the quality of NDVI time-series data by integrating spatiotemporal information with the Savitzky-Golay filter",
+journal = "Remote Sensing of Environment",
+volume = "217",
+pages = "244 - 257",
+year = "2018",
+issn = "0034-4257",
+doi = "https://doi.org/10.1016/j.rse.2018.08.022",
+url = "http://www.sciencedirect.com/science/article/pii/S0034425718303985",
+author = "Ruyin Cao and Yang Chen and Miaogen Shen and Jin Chen and Ji Zhou and Cong Wang and Wei Yang",
+keywords = "Continuous NDVI gaps, High-quality NDVI reconstruction, MODIS and SPOT NDVI, Noise-reduction filter, Spatial-temporal information, VIIRS NDVI",
+abstract = "High-quality Normalized Difference Vegetation Index (NDVI) time-series data are important for many regional and global ecological and environmental applications. Unfortunately, residual noise in current NDVI time-series products greatly hinders their further applications. Several noise-reduction methods have been proposed during the past two decades, but two important issues remain to be resolved. First, the methods usually perform poorly for cases of continuous missing data in the NDVI time series. Second, they generally assume negatively biased noise in the NDVI time series and thus erroneously raise some local low NDVI values in certain cases (e.g., the harvest period for multi-season crops).We therefore developed a new noise-reduction algorithm called the Spatial-Temporal Savitzky-Golay (STSG) method. The new method assumes discontinuous clouds in space and employs neighboring pixels to assist in the noise reduction of the target pixel in a particular year. The relationship between the NDVI of neighboring pixels and that of the target pixel was obtained from multi-year NDVI time series thanks to the accumulation of NDVI data over many years, which would have been impossible a decade ago. We tested STSG on 16-day composite MODIS NDVI time-series data from 2001 to 2016 in regions of mainland China and 11 phenology camera sites in North American. The results showed that STSG performed significantly better compared with four previous widely used methods (i.e., the Asymmetric Gaussian, Double Logistic, Fourier-based, and Savitzky-Golay filter methods). One obvious advantage was that STSG was able to address the problem of temporally continuous NDVI gaps. STSG effectively increased local low NDVI values and simultaneously avoided overcorrecting low NDVI values during the crop harvest period. In addition, implementing STSG required only raw MODIS NDVI time-series products without any additional burden of data requirements. All of these advantages make STSG a promising noise-reduction method for generating high-quality NDVI time-series data."
+}
+
+
+
+
+
+
+@article{ROJAS2011343,
+title = "Assessing drought probability for agricultural areas in Africa with coarse resolution remote sensing imagery",
+journal = "Remote Sensing of Environment",
+volume = "115",
+number = "2",
+pages = "343 - 352",
+year = "2011",
+issn = "0034-4257",
+doi = "https://doi.org/10.1016/j.rse.2010.09.006",
+url = "http://www.sciencedirect.com/science/article/pii/S0034425710002798",
+author = "O. Rojas and A. Vrieling and F. Rembold",
+keywords = "Agricultural drought, Remote sensing, NDVI, Africa, Drought probability",
+abstract = "Drought is one of the most frequent climate-related disasters occurring across large portions of the African continent, often with devastating consequences for the food security of agricultural households. This study proposes a novel method for calculating the empirical probability of having a significant proportion of the total agricultural area affected by drought at sub-national level. First, we used the per-pixel Vegetation Health Index (VHI) from the Advanced Very High Resolution Radiometer (AVHRR) averaged over the crop season as main drought indicator. A phenological model based on NDVI was employed for defining the start of season (SOS) and end of the grain filling stage (GFS) dates. Second, the per-pixel average VHI was aggregated for agricultural areas at sub-national level in order to obtain a drought intensity indicator. Seasonal VHI averaging according to the phenological model proved to be a valid drought indicator for the African continent, and is highly correlated with the drought events recorded during the period (1981–2009). The final results express the empirical probability of drought occurrence over both the temporal and the spatial domain, representing a promising tool for future drought monitoring."
+}
+
+lin@article{RULINDA201132,
+title = "The chlorophyll variability in Meteosat derived NDVI in a context of drought monitoring",
+journal = "Procedia Environmental Sciences",
+volume = "3",
+pages = "32 - 37",
+year = "2011",
+note = "1st Conference on Spatial Statistics 2011 – Mapping Global Change",
+issn = "1878-0296",
+doi = "https://doi.org/10.1016/j.proenv.2011.02.007",
+url = "http://www.sciencedirect.com/science/article/pii/S1878029611000089",
+author = "Coco M. Rulinda and Wietske Bijker and Alfred Stein",
+keywords = "Remote Sensing, MSG, Rwanda ;Bugesera, Drought monitoring, Vegetation",
+abstract = "In this study we propose a validation method for the Meteosat SEVIRI derived NDVI values in regards to vegetation health from ground observations. The percentage of vegetation cover and the chlorophyll content are selected as vegetation health variables and their variability within and between SEVIRI pixels are assessed. No significant variability was found within pixels but between pixels for each of the variables. These variables are compared first separately with NDVI values, and later combined, with the NDVI values composited at different time steps. Results show that the combination of variables shows a similar trend than the mean NDVI or max NDVI calculated for the whole period of the study, as the presence of clouds influenced the daily NDVI values. We conclude that NDVI values can be used without compromising the variability of chlorophyll content and percentage of vegetation cover within those pixels. This funding can be used to understand the variation of NDVI which can be observed during a drought period. © 2010 Published by Elsevier Ltd. Selection and/or peer-review under responsibility of 1st Conference on Spatial Statistics 2011 - Mapping global change."
+}
+
+@Article{nhess-2018-26,
+AUTHOR = {Sai, F. and Cumiskey, L. and Weerts, A. and Bhattacharya, B. and Haque Khan, R.},
+TITLE = {Towards impact-based flood forecasting and warning in Bangladesh: a case study at the local level in Sirajganj district},
+JOURNAL = {Natural Hazards and Earth System Sciences Discussions},
+VOLUME = {2018},
+YEAR = {2018},
+PAGES = {1--20},
+URL = {https://www.nat-hazards-earth-syst-sci-discuss.net/nhess-2018-26/},
+DOI = {10.5194/nhess-2018-26}
+}
+
+@Article{TozierdelaPoterie2015,
+author="Tozier de la Poterie, Arielle
+and Baudoin, Marie-Ange",
+title="From Yokohama to Sendai: Approaches to Participation in International Disaster Risk Reduction Frameworks",
+journal="International Journal of Disaster Risk Science",
+year="2015",
+month="Jun",
+day="01",
+volume="6",
+number="2",
+pages="128--139",
+abstract="Taking the importance of local action as a starting point, this analysis traces the treatment of participation of local and community actors through the three international frameworks for disaster risk reduction (DRR): the Yokohama Strategy and Plan of Action for a Safer World, the Hyogo Framework for Action 2005--2015, and the Sendai Framework for Disaster Risk Reduction 2015--2030 (SFDRR). The study finds a concerning shift away from valuing local community input and toward promoting technological advances. Community actors went from valued partners with their own expertise and relevant beliefs in Yokohama Strategy to ``aid recipients'' to whom tailored risk information must be transmitted (in SFDRR). This shift may reflect the top-down nature of negotiated international agreements or a broader shift toward investments in technological solutions. Whatever the cause, given widespread recognition of the importance of local knowledge and participation and growing recognition of the importance of intra-community differences in vulnerability, it suggests the need for reconsideration of both the discourse and the practice of involving community-level actors in DRR planning and implementation.",
+issn="2192-6395",
+doi="10.1007/s13753-015-0053-6",
+url="https://doi.org/10.1007/s13753-015-0053-6"
+}
+
+@Article{tozier,
+AUTHOR = {Tozier de la Poterie, A., E. K. Burchfield, and A. R. Carrico.},
+TITLE = {The implications of group norms for adaptation in collectively managed agricultural systems: evidence from Sri Lankan paddy farmers. Ecology and Society},
+JOURNAL = {Ecology and Society},
+VOLUME = {23},
+YEAR = {2018},
+NUMBER = {3},
+DOI = {10.5751/ES-10175-230321}
+}
+
+@Article{nhess-15-895-2015,
+AUTHOR = {Coughlan de Perez, E. and van den Hurk, B. and van Aalst, M. K. and Jongman, B. and Klose, T. and Suarez, P.},
+TITLE = {Forecast-based financing: an approach for catalyzing humanitarian action based on extreme weather and climate forecasts},
+JOURNAL = {Natural Hazards and Earth System Sciences},
+VOLUME = {15},
+YEAR = {2015},
+NUMBER = {4},
+PAGES = {895--904},
+URL = {https://www.nat-hazards-earth-syst-sci.net/15/895/2015/},
+DOI = {10.5194/nhess-15-895-2015}
+}
+
+@article{yang2018brief,
+  title={Brief communication. Drought likelihood for East Africa},
+  author={Yang, Hui and Huntingford, Chris},
+  journal={Natural Hazards and Earth System Sciences},
+  volume={18},
+  number={2},
+  pages={491--497},
+  year={2018},
+  publisher={EGU}
+}
+
+@article {Tierneye1500682,
+	author = {Tierney, Jessica E. and Ummenhofer, Caroline C. and deMenocal, Peter B.},
+	title = {Past and future rainfall in the Horn of Africa},
+	volume = {1},
+	number = {9},
+	elocation-id = {e1500682},
+	year = {2015},
+	doi = {10.1126/sciadv.1500682},
+	publisher = {American Association for the Advancement of Science},
+	abstract = {The recent decline in Horn of Africa rainfall during the March{\textendash}May {\textquotedblleft}long rains{\textquotedblright} season has fomented drought and famine, threatening food security in an already vulnerable region. Some attribute this decline to anthropogenic forcing, whereas others maintain that it is a feature of internal climate variability. We show that the rate of drying in the Horn of Africa during the 20th century is unusual in the context of the last 2000 years, is synchronous with recent global and regional warming, and therefore may have an anthropogenic component. In contrast to 20th century drying, climate models predict that the Horn of Africa will become wetter as global temperatures rise. The projected increase in rainfall mainly occurs during the September{\textendash}November {\textquotedblleft}short rains{\textquotedblright} season, in response to large-scale weakening of the Walker circulation. Most of the models overestimate short rains precipitation while underestimating long rains precipitation, causing the Walker circulation response to unrealistically dominate the annual mean. Our results highlight the need for accurate simulation of the seasonal cycle and an improved understanding of the dynamics of the long rains season to predict future rainfall in the Horn of Africa.},
+	URL = {https://advances.sciencemag.org/content/1/9/e1500682},
+	eprint = {https://advances.sciencemag.org/content/1/9/e1500682.full.pdf},
+	journal = {Science Advances}
+}
+
+
+
+@article{orindi2007pastoral,
+  title={Pastoral livelihood adaptation to drought and institutional interventions in Kenya},
+  author={Orindi, Victor and Nyong, Anthony and Herrero, Mario T},
+  year={2007},
+  publisher={UNDP}
+}
+
+@Article{Nyong2007,
+author="Nyong, A.
+and Adesina, F.
+and Osman Elasha, B.",
+title="The value of indigenous knowledge in climate change mitigation and adaptation strategies in the African Sahel",
+journal="Mitigation and Adaptation Strategies for Global Change",
+year="2007",
+month="Jun",
+day="01",
+volume="12",
+number="5",
+pages="787--797",
+abstract="Past global efforts at dealing with the problem of global warming concentrated on mitigation, with the aim of reducing and possibly stabilizing greenhouse gas (GHG) concentrations in the atmosphere. With the slow progress in achieving this, adaptation was viewed as a viable option to reduce the vulnerability to the anticipated negative impacts of global warming. It is increasingly realized that mitigation and adaptation should not be pursued independent of each other but as complements. This has resulted in the recent calls for the integration of adaptation into mitigation strategies. However, integrating mitigation and adaptation into climate change concerns is not a completely new idea in the African Sahel. The region is characterized by severe and frequent droughts with records dating back into centuries. The local populations in this region, through their indigenous knowledge systems, have developed and implemented extensive mitigation and adaptation strategies that have enabled them reduce their vulnerability to past climate variability and change, which exceed those predicted by models of future climate change. However, this knowledge is rarely taken into consideration in the design and implementation of modern mitigation and adaptation strategies. This paper highlights some indigenous mitigation and adaptation strategies that have been practiced in the Sahel, and the benefits of integrating indigenous knowledge into formal climate change mitigation and adaptation strategies. Incorporating indigenous knowledge can add value to the development of sustainable climate change mitigation and adaptation strategies that are rich in local content, and planned in conjunction with local people.",
+issn="1573-1596",
+doi="10.1007/s11027-007-9099-0",
+url="https://doi.org/10.1007/s11027-007-9099-0"
+}
+
+
+
+
+@Article{Stanke,
+AUTHOR = {Stanke, Carla and Kerac, Marko and Prudhomme, Christel and Medlock, Jolyon and Murray, Virginia},
+TITLE = {Health effects of drought: a systematic review of the evidence},
+JOURNAL = {PLoS currents},
+VOLUME = {5},
+YEAR = {2013},
+URL = {https://www.ncbi.nlm.nih.gov/pubmed/23787891}
+}
+
+
+
+
+@inproceedings{Galvin2001ImpactsOC,
+  title={Impacts of climate variability on East African pastoralists: linking social science and remote sensing},
+  author={Kathleen A. Galvin and Randall B. Boone and Nicole Marie Stauffer Smith and Sister Mary Lynn},
+  year={2001}
+}
+
+@article{CAMPSVALLS201869,
+title = "Physics-aware Gaussian processes in remote sensing",
+journal = "Applied Soft Computing",
+volume = "68",
+pages = "69 - 82",
+year = "2018",
+issn = "1568-4946",
+doi = "https://doi.org/10.1016/j.asoc.2018.03.021",
+url = "http://www.sciencedirect.com/science/article/pii/S1568494618301431",
+author = "Gustau Camps-Valls and Luca Martino and Daniel H. Svendsen and Manuel Campos-Taberner and Jordi Muñoz-Marí and Valero Laparra and David Luengo and Francisco Javier García-Haro",
+keywords = "Earth observation, Remote sensing, Vegetation, Kernel methods, Gaussian processes (GPs), Inverse modeling, Geosciences, Radiative transfer models (RTMs)",
+abstract = "Earth observation from satellite sensory data poses challenging problems, where machine learning is currently a key player. In recent years, Gaussian Process (GP) regression has excelled in biophysical parameter estimation tasks from airborne and satellite observations. GP regression is based on solid Bayesian statistics, and generally yields efficient and accurate parameter estimates. However, GPs are typically used for inverse modeling based on concurrent observations and in situ measurements only. Very often a forward model encoding the well-understood physical relations between the state vector and the radiance observations is available though and could be useful to improve predictions and understanding. In this work, we review three GP models that respect and learn the physics of the underlying processes in the context of both forward and inverse modeling. After reviewing the traditional application of GPs for parameter retrieval, we introduce a Joint GP (JGP) model that combines in situ measurements and simulated data in a single GP model. Then, we present a latent force model (LFM) for GP modeling that encodes ordinary differential equations to blend data-driven modeling and physical constraints of the system governing equations. The LFM performs multi-output regression, adapts to the signal characteristics, is able to cope with missing data in the time series, and provides explicit latent functions that allow system analysis and evaluation. Finally, we present an Automatic Gaussian Process Emulator (AGAPE) that approximates the forward physical model using concepts from Bayesian optimization and at the same time builds an optimally compact look-up-table for inversion. We give empirical evidence of the performance of these models through illustrative examples of vegetation monitoring and atmospheric modeling."
+}
+
+
+@INPROCEEDINGS{pp2, 
+author={A. {Mateo-Sanchis} and J. {Muñoz-Marí} and M. {Campos-Taberner} and J. {García-Haro} and G. {Camps-Valls}}, 
+booktitle={IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium}, 
+title={Gap Filling of Biophysical Parameter Time Series with Multi-Output Gaussian Processes}, 
+year={2018}, 
+volume={}, 
+number={}, 
+pages={4039-4042}, 
+keywords={Gaussian processes;vegetation;rice areas;single-output GP models;MO-GP models;biophysical parameter time series;multioutput Gaussian processes;Gaussian Process models;linear model;biophysical parameter variables;gap filling setup;LAI;fAPAR;high missing data regimes;across-domain information transfer;Biological system modeling;Time series analysis;Predictive models;Gaussian processes;Standards;Data models;Training}, 
+doi={10.1109/IGARSS.2018.8519254}, 
+ISSN={2153-7003}, 
+month={July},}
+
+@article{Barrett:2010,
+  title = {Multivariate Granger causality and generalized variance},
+  author = {Barrett, Adam B. and Barnett, Lionel and Seth, Anil K.},
+  journal = {Phys. Rev. E},
+  volume = {81},
+  issue = {4},
+  pages = {041907},
+  numpages = {14},
+  year = {2010},
+  month = {Apr},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.81.041907},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.81.041907}
+}
+
+@BOOK{Hamilton94,
+  AUTHOR =   {{J.D.} Hamilton},
+  PUBLISHER =    {Princeton University Press},
+  TITLE =    {Time series analysis},
+  YEAR =     {1994},
+  address = {Princeton, NJ}
+}
+
+@ARTICLE{7487896, 
+author={G. Camps-Valls and J. Verrelst and J. Munoz-Mari and V. Laparra and F. Mateo-Jimenez and J. Gomez-Dans}, 
+journal={IEEE Geoscience and Remote Sensing Magazine}, 
+title={A Survey on Gaussian Processes for Earth-Observation Data Analysis: A Comprehensive Investigation}, 
+year={2016}, 
+volume={4}, 
+number={2}, 
+pages={58-78}, 
+keywords={atmospheric composition;atmospheric humidity;atmospheric temperature;data analysis;Gaussian processes;hyperspectral imaging;oceanography;ozone;remote sensing;underwater optics;vegetation;infrared sounder;atmospheric ozone;atmospheric moisture;atmospheric temperature;atmospheric parameters;hyperspectral sensor;multispectral sensor;vegetation property;oceanic pigment;oceanic chlorophyll content;atmosphere monitoring;ocean monitoring;land monitoring;remote sensing;geosciences;RTM emulation;radiative transfer model;automatic relevance kernels;noise characteristics;signal characteristics;solid Bayesian framework;biogeophysical parameter retrieval;Earth-observation data analysis;Gaussian processes;Kernel;Biological system modeling;Training;Geology;Standards;Gaussian processes;Monitoring}, 
+doi={10.1109/MGRS.2015.2510084}, 
+ISSN={2168-6831}, 
+month={June},}
+
+@inproceedings{Chandola2010SCALABLETSold,
+  title={SCALABLE TIME SERIES CHANGE DETECTION FOR BIOMASS MONITORING USING GAUSSIAN PROCESS},
+  author={Varun Chandola and Ranga Raju Vatsavai},
+  booktitle={CIDU},
+  year={2010}
+}
+
+@article{BROWN201531,
+title = "Weather and international price shocks on food prices in the developing world",
+journal = "Global Environmental Change",
+volume = "35",
+pages = "31 - 40",
+year = "2015",
+issn = "0959-3780",
+doi = "https://doi.org/10.1016/j.gloenvcha.2015.08.003",
+url = "http://www.sciencedirect.com/science/article/pii/S0959378015300248",
+author = "Molly E. Brown and Varun Kshirsagar",
+keywords = "Climate change, Food security, Food prices, NDVI",
+abstract = "In the context of a changing climate, there is an urgent need to better understand the impact that weather disturbances have on food affordability in the developing world. While the influence of international markets on local food markets has received considerable attention, in contrast, the potential influence of weather disturbances on local food markets has received much less attention. In fact, local weather disturbances may have an adverse impact on the poorest households in developing countries. Here we quantify the short-run impact of both weather disturbances as well as international price changes on monthly food prices across 554 local commodity markets in 51 countries during the period between 2008 and 2012. We find that almost 20\% of local market prices were affected by domestic weather disturbances in the short run, 9\% by international price changes and 4\% by both domestic weather disturbances and international price changes during the period. An improved understanding of the magnitude and relative importance of weather disturbances and international price changes on rural economies will inform public policies that are designed to mitigate the impact of adverse weather disturbances."
+}
+
+@article {Nelson3274,
+	author = {Nelson, Gerald C. and Valin, Hugo and Sands, Ronald D. and Havl{\'\i}k, Petr and Ahammad, Helal and Deryng, Delphine and Elliott, Joshua and Fujimori, Shinichiro and Hasegawa, Tomoko and Heyhoe, Edwina and Kyle, Page and Von Lampe, Martin and Lotze-Campen, Hermann and Mason d{\textquoteright}Croz, Daniel and van Meijl, Hans and van der Mensbrugghe, Dominique and M{\"u}ller, Christoph and Popp, Alexander and Robertson, Richard and Robinson, Sherman and Schmid, Erwin and Schmitz, Christoph and Tabeau, Andrzej and Willenbockel, Dirk},
+	title = {Climate change effects on agriculture: Economic responses to biophysical shocks},
+	volume = {111},
+	number = {9},
+	pages = {3274--3279},
+	year = {2014},
+	doi = {10.1073/pnas.1222465110},
+	publisher = {National Academy of Sciences},
+	abstract = {Plausible estimates of climate change impacts on agriculture require integrated use of climate, crop, and economic models. We investigate the contribution of economic models to uncertainty in this impact chain. In the nine economic models included, the direction of management intensity, area, consumption, and international trade responses to harmonized crop yield shocks from climate change are similar. However, the magnitudes differ significantly. The differences depend on model structure, in particular the specification of endogenous yield effects, land use change, and propensity to trade. These results highlight where future research on modeling climate change impacts on agriculture should focus.Agricultural production is sensitive to weather and thus directly affected by climate change. Plausible estimates of these climate change impacts require combined use of climate, crop, and economic models. Results from previous studies vary substantially due to differences in models, scenarios, and data. This paper is part of a collective effort to systematically integrate these three types of models. We focus on the economic component of the assessment, investigating how nine global economic models of agriculture represent endogenous responses to seven standardized climate change scenarios produced by two climate and five crop models. These responses include adjustments in yields, area, consumption, and international trade. We apply biophysical shocks derived from the Intergovernmental Panel on Climate Change{\textquoteright}s representative concentration pathway with end-of-century radiative forcing of 8.5 W/m2. The mean biophysical yield effect with no incremental CO2 fertilization is a 17\% reduction globally by 2050 relative to a scenario with unchanging climate. Endogenous economic responses reduce yield loss to 11\%, increase area of major crops by 11\%, and reduce consumption by 3\%. Agricultural production, cropland area, trade, and prices show the greatest degree of variability in response to climate change, and consumption the lowest. The sources of these differences include model structure and specification; in particular, model assumptions about ease of land use conversion, intensification, and trade. This study identifies where models disagree on the relative responses to climate shocks and highlights research activities needed to improve the representation of agricultural adaptation responses to climate change.},
+	issn = {0027-8424},
+	URL = {https://www.pnas.org/content/111/9/3274},
+	eprint = {https://www.pnas.org/content/111/9/3274.full.pdf},
+	journal = {Proceedings of the National Academy of Sciences}
+}
+
+
+
+
+@article{Chandola2010SCALABLETS,
+author = {Chandola, Varun and Vatsavai, Ranga Raju},
+title = {A scalable gaussian process analysis algorithm for biomass monitoring},
+journal = {Statistical Analysis and Data Mining: The ASA Data Science Journal},
+volume = {4},
+number = {4},
+pages = {430-445},
+keywords = {biomass monitoring, Gaussian process, scalability},
+doi = {10.1002/sam.10129},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/sam.10129},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/sam.10129},
+abstract = {Abstract Biomass monitoring is vital for studying the carbon cycle of earth's ecosystem and has several significant implications, especially in the context of understanding climate change and its impacts. Recently, several change detection methods have been proposed to identify land cover changes in temporal profiles (time series) of vegetation collected using remote sensing instruments, but do not satisfy one or both of the two requirements of the biomass monitoring problem, that is, operating in online mode and handling periodic time series. In this paper, we adapt Gaussian process (GP) regression to detect changes in such time series in an online fashion. While GP have been widely used as a kernel-based learning method for regression and classification, their applicability to massive spatiotemporal data sets, such as remote sensing data, has been limited owing to the high computational costs involved. We focus on addressing the scalability issues associated with the proposed GP based change detection algorithm. This paper makes several significant contributions. First, we propose a GP based online time series change detection algorithm and demonstrate its effectiveness in detecting different types of changes in Normalized Difference Vegetation Index (NDVI) data obtained from a study area in IA, USA. Second, we propose an efficient Toeplitz matrix based solution which significantly improves the computational complexity and memory requirements of the proposed GP based method. Specifically, the proposed solution can analyze a time series of length t in O(t2) time while maintaining a O(t) memory footprint, compared to the O(t3) time and O(t2) memory requirement of standard matrix manipulation based methods. Third, we describe a parallel version of the proposed solution which can be used to simultaneously analyze a large number of time series. We study three different parallel implementations: using threads, Message Passing Interface (MPI), and a hybrid implementation using threads and MPI. Experimental results show that the hybrid implementation scales better than the multithreaded and MPI based implementations. The application of the proposed scalable algorithm is demonstrated in analyzing massive remote sensing observation data. The hybrid implementation, using 1536 computing cores, can analyze an NDVI data set for the Iowa study area in nearly 5 s, while a serial algorithm, using standard Cholesky decomposition based routines, takes several days to process the same data set. © 2011 Wiley Periodicals, Inc. Statistical Analysis and Data Mining 4: 430–445, 2011},
+year = {2011}
+}
+
+
+
+
+@Article{rs11050481,
+AUTHOR = {Upreti, Deepak and Huang, Wenjiang and Kong, Weiping and Pascucci, Simone and Pignatti, Stefano and Zhou, Xianfeng and Ye, Huichun and Casa, Raffaele},
+TITLE = {A Comparison of Hybrid Machine Learning Algorithms for the Retrieval of Wheat Biophysical Variables from Sentinel-2},
+JOURNAL = {Remote Sensing},
+VOLUME = {11},
+YEAR = {2019},
+NUMBER = {5},
+ARTICLE-NUMBER = {481},
+URL = {http://www.mdpi.com/2072-4292/11/5/481},
+ISSN = {2072-4292},
+ABSTRACT = {This study focuses on the comparison of hybrid methods of estimation of biophysical variables such as leaf area index (LAI), leaf chlorophyll content (LCC), fraction of absorbed photosynthetically active radiation (FAPAR), fraction of vegetation cover (FVC), and canopy chlorophyll content (CCC) from Sentinel-2 satellite data. Different machine learning algorithms were trained with simulated spectra generated by the physically-based radiative transfer model PROSAIL and subsequently applied to Sentinel-2 reflectance spectra. The algorithms were assessed against a standard operational approach, i.e., the European Space Agency (ESA) Sentinel Application Platform (SNAP) toolbox, based on neural networks. Since kernel-based algorithms have a heavy computational cost when trained with large datasets, an active learning (AL) strategy was explored to try to alleviate this issue. Validation was carried out using ground data from two study sites: one in Shunyi (China) and the other in Maccarese (Italy). In general, the performance of the algorithms was consistent for the two study sites, though a different level of accuracy was found between the two sites, possibly due to slightly different ground sampling protocols and the range and variability of the values of the biophysical variables in the two ground datasets. For LAI estimation, the best ground validation results were obtained for both sites using least squares linear regression (LSLR) and partial least squares regression, with the best performances values of R2 of 0.78, rott mean squared error (RMSE) of 0.68 m2 m&minus;2 and a relative RMSE (RRMSE) of 19.48% obtained in the Maccarese site with LSLR. The best results for LCC were obtained using Random Forest Tree Bagger (RFTB) and Bagging Trees (BagT) with the best performances obtained in Maccarese using RFTB (R2 = 0.26, RMSE = 8.88 &mu;g cm&minus;2, RRMSE = 17.43%). Gaussian Process Regression (GPR) was the best algorithm for all variables only in the cross-validation phase, but not in the ground validation, where it ranked as the best only for FVC in Maccarese (R2 = 0.90, RMSE = 0.08, RRMSE = 9.86%). It was found that the AL strategy was more efficient than the random selection of samples for training the GPR algorithm.},
+DOI = {10.3390/rs11050481}
+}
+
+
+@INPROCEEDINGS{955315, 
+author={S. {Brahim-Belhouari} and J. M. {Vesin}}, 
+booktitle={Proceedings of the 11th IEEE Signal Processing Workshop on Statistical Signal Processing (Cat. No.01TH8563)}, 
+title={Bayesian learning using Gaussian process for time series prediction}, 
+year={2001}, 
+volume={}, 
+number={}, 
+pages={433-436}, 
+keywords={Bayes methods;Gaussian processes;learning (artificial intelligence);time series;prediction theory;Bayesian learning;Gaussian Process;time series;prediction;Bayesian methods;Gaussian processes;Predictive models;Neural networks;Gaussian noise;Signal processing;Laboratories;Radial basis function networks;Vectors;Computer networks}, 
+doi={10.1109/SSP.2001.955315}, 
+ISSN={}, 
+month={Aug},}
+
+
+@ARTICLE{8573976, 
+author={X. {Fan} and Y. {Liu}}, 
+journal={IEEE Geoscience and Remote Sensing Magazine}, 
+title={Multisensor Normalized Difference Vegetation Index Intercalibration: A Comprehensive Overview of the Causes of and Solutions for Multisensor Differences}, 
+year={2018}, 
+volume={6}, 
+number={4}, 
+pages={23-45}, 
+keywords={geophysical techniques;vegetation;near-surface platform;airborne platform;comprehensive literature review;temporally continuous land-surface monitoring;spatially land-surface monitoring;multiscale normalized difference vegetation index;satellite platforms;multisensor differences;multisensor normalized difference vegetation index intercalibration;Remote sensing;Satellite broadcasting;Vegetation mapping;Calibration;Spatial resolution;Satellites}, 
+doi={10.1109/MGRS.2018.2859814}, 
+ISSN={2168-6831}, 
+month={Dec},}
+
+@article{LS,
+AUTHOR = {Dandan Xu, Xulin Guo},
+TITLE = {Compare NDVI Extracted from Landsat 8 Imagery with that from Landsat 7 Imagery},
+JOURNAL = {American Journal of Remote Sensing},
+VOLUME = {2},
+YEAR = {2014},
+NUMBER = {2},
+pages = {10-14},
+DOI = {10.11648/j.ajrs.20140202.11}
+}
+@article{Venton,
+AUTHOR = {Venton, C and Fitzgibbon, C and Shitarek, T and Coulter, L and Dooley, O},
+TITLE = {The economics of early response and disaster resilience: lessons from Kenya and Ethiopia},
+JOURNAL = {Independent report},
+YEAR = {2012}
+}
+
+@article{ZAMBRANO201815,
+title = "Prediction of drought-induced reduction of agricultural productivity in Chile from MODIS, rainfall estimates, and climate oscillation indices",
+journal = "Remote Sensing of Environment",
+volume = "219",
+pages = "15 - 30",
+year = "2018",
+issn = "0034-4257",
+doi = "https://doi.org/10.1016/j.rse.2018.10.006",
+url = "http://www.sciencedirect.com/science/article/pii/S0034425718304541",
+author = "Francisco Zambrano and Anton Vrieling and Andy Nelson and Michele Meroni and Tsegaye Tadesse",
+keywords = "Early-warning, Drought, Agriculture, Productivity, Prediction, Chile, MODIS, zcNDVI, Phenology",
+abstract = "Global food security is negatively affected by drought. Climate projections show that drought frequency and intensity may increase in different parts of the globe. These increases are particularly hazardous for developing countries. Early season forecasts on drought occurrence and severity could help to better mitigate the negative consequences of drought. The objective of this study was to assess if interannual variability in agricultural productivity in Chile can be accurately predicted from freely-available, near real-time data sources. As the response variable, we used the standard score of seasonal cumulative NDVI (zcNDVI), based on 2000–2017 data from Moderate Resolution Imaging Spectroradiometer (MODIS), as a proxy for anomalies of seasonal primary productivity. The predictions were performed with forecast lead times from one- to six-month before the end of the growing season, which varied between census units in Chile. Predictor variables included the zcNDVI obtained by cumulating NDVI from season start up to prediction time; standardised precipitation indices derived from satellite rainfall estimates, for time-scales of 1, 3, 6, 12 and 24 months; the Pacific Decadal Oscillation and the Multivariate ENSO oscillation indices; the length of the growing season, and latitude and longitude. For each of the 758 census units considered, the time series of the response and the predictor variables were averaged for agricultural areas resulting in a 17-season time series per unit for each variable. We used two prediction approaches: (i) optimal linear regression (OLR) whereby for each census unit the single predictor was selected that best explained the interannual zcNDVI variability, and (ii) a multi-layer feedforward neural network architecture, often called deep learning (DL), where all predictors for all units were combined in a single spatio-temporal model. Both approaches were evaluated with a leave-one-year-out cross-validation procedure. Both methods showed good prediction accuracies for small lead times and similar values for all lead times. The mean Rcv2 values for OLR were 0.95, 0.83, 0.68, 0.56, 0.46 and 0.37, against 0.96, 0.84, 0.65, 0.54, 0.46 and 0.38 for DL, for one, two, three, four, five, and six months lead time, respectively. Given the wide range of climates and vegetation types covered within the study area, we expect that the presented models can contribute to an improved early warning system for agricultural drought in different geographical settings around the globe."
+}
+
+@article{BHUIYAN2006289,
+title = "Monitoring drought dynamics in the Aravalli region (India) using different indices based on ground and remote sensing data",
+journal = "International Journal of Applied Earth Observation and Geoinformation",
+volume = "8",
+number = "4",
+pages = "289 - 302",
+year = "2006",
+issn = "0303-2434",
+doi = "https://doi.org/10.1016/j.jag.2006.03.002",
+url = "http://www.sciencedirect.com/science/article/pii/S030324340600016X",
+author = "C. Bhuiyan and R.P. Singh and F.N. Kogan",
+keywords = "Drought, Monsoon, GIS, SPI, SWI, AVHRR, GVI, NDVI, VCI, TCI, VHI",
+abstract = "The hard-rock hilly Aravalli terrain of Rajasthan province of India suffers with frequent drought due to poor and delayed monsoon, abnormally high summer-temperature and insufficient water resources. In the present study, detailed analysis of meteorological and hydrological data of the Aravalli region has been carried out for the years 1984–2003. Standardised Precipitation Index (SPI) has been used to quantify the precipitation deficit. Standardised Water-Level Index (SWI) has been developed to assess ground-water recharge-deficit. Vegetative drought indices like Vegetation Condition Index (VCI) and Temperature Condition Index (TCI) and Vegetation Health Index (VHI) have been computed using NDVI values obtained from Global Vegetation Index (GVI) and thermal channel data of NOAA AVHRR satellite. Detailed analyses of spatial and temporal drought dynamics during monsoon and non-monsoon seasons have been carried out through drought index maps generated in Geographic Information Systems (GIS) environment. Analysis and interpretation of these maps reveal that negative SPI anomalies not always correspond to drought. In the Aravalli region, aquifer-stress shifts its position time to time, and in certain pockets it is more frequent. In comparison to hydrological stress, vegetative stress in the Aravalli region is found to be slower to begin but quicker to withdraw."
+}
+
+@article{KOGAN199591,
+title = "Application of vegetation index and brightness temperature for drought detection",
+journal = "Advances in Space Research",
+volume = "15",
+number = "11",
+pages = "91 - 100",
+year = "1995",
+note = "Natural Hazards: Monitoring and Assessment Using Remote Sensing Technique",
+issn = "0273-1177",
+doi = "https://doi.org/10.1016/0273-1177(95)00079-T",
+url = "http://www.sciencedirect.com/science/article/pii/027311779500079T",
+author = "F.N. Kogan",
+abstract = "In recent years the National Oceanic and Atmospheric Administration (NOAA) has designed a new AVHRR-based Vegetation Condition Index (VCI) that has showed to be useful for drought detection and tracking. Validations showed that the VCI has excellent ability to detect drought and to measure time of its onset, intensity, duration, and impact on vegetation. The VCI provides accurate drought information not only for well-defined, prolonged, widespread, and intensive droughts, but also for very localized, short-term, and non well-defined droughts. In addition to the VCI, the AVHRR-based observations in thermal bands were used to develop the Temperature Condition Index (TCI). This index was used to determine temperature-related vegetation stress and also stress caused by an excessive wetness. This paper provides principles of these indices, describes data processing, and gives examples of VCI/TCI application in different ecological environments of the United States."
+}
+
+@article{venton2012economics,
+  title={The economics of early response and disaster resilience: lessons from Kenya and Ethiopia},
+  author={Venton, Courtenay Cabot and Fitzgibbon, Catherine and Shitarek, Tenna and Coulter, Lorraine and Dooley, Olivia},
+  journal={Final report},
+  year={2012}
+}
+
+
+@article{Lesk,
+	Author = {Lesk, Corey and Rowhani, Pedram and Ramankutty, Navin},
+	Date = {2016/01/06/online},
+	Date-Added = {2019-05-21 12:47:50 +0000},
+	Date-Modified = {2019-05-21 12:47:50 +0000},
+	Day = {06},
+	Journal = {Nature},
+	L3 = {10.1038/nature16467; https://www.nature.com/articles/nature16467#supplementary-information},
+	Month = {01},
+	Pages = {84 EP  -},
+	Publisher = {Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved. SN  -},
+	Title = {Influence of extreme weather disasters on global crop production},
+	Ty = {JOUR},
+	Url = {https://doi.org/10.1038/nature16467},
+	Volume = {529},
+	Year = {2016},
+	Bdsk-Url-1 = {https://doi.org/10.1038/nature16467}}
+
+@article{VRIELING201644,
+title = "Early assessment of seasonal forage availability for mitigating the impact of drought on East African pastoralists",
+journal = "Remote Sensing of Environment",
+volume = "174",
+pages = "44 - 55",
+year = "2016",
+issn = "0034-4257",
+doi = "https://doi.org/10.1016/j.rse.2015.12.003",
+url = "http://www.sciencedirect.com/science/article/pii/S0034425715302248",
+author = "Anton Vrieling and Michele Meroni and Andrew G. Mude and Sommarat Chantarat and Caroline C. Ummenhofer and Kees (C.A.J.M.) de Bie",
+keywords = "Drought, MODIS, NDVI time series, Phenology, Index insurance, Livestock mortality",
+abstract = "Pastoralist households across East Africa face major livestock losses during drought periods that can cause persistent poverty. For Kenya and southern Ethiopia, an existing index insurance scheme aims to reduce the adverse effects of such losses. The scheme insures individual households through an area-aggregated seasonal forage scarcity index derived from remotely-sensed normalized difference vegetation index (NDVI) time series. Until recently, insurance contracts covered animal losses and indemnity payouts were consequently made late in the season, based on a forage scarcity index incorporating both wet and dry season NDVI data. Season timing and duration were fixed for the whole area (March–September for long rains, October–February for short rains). Due to demand for asset protection insurance (pre-loss intervention) our aim was to identify earlier payout options by shortening the temporal integration period of the index. We used 250m-resolution 10-day NDVI composites for 2001–2014 from the Moderate Resolution Imaging Spectroradiometer (MODIS). To better describe the period during which forage develops, we first retrieved per-pixel average season start- and end-dates using a phenological model. These dates were averaged per insurance unit to obtain unit-specific growing period definitions. With these definitions a new forage scarcity index was calculated. We then examined if shortening the temporal period further could effectively predict most (>90\%) of the interannual variability of the new index, and assessed the effects of shortening the period on indemnity payouts. Our analysis shows that insurance payouts could be made one to three months earlier as compared to the current index definition, depending on the insurance unit. This would allow pastoralists to use indemnity payments to protect their livestock through purchase of forage, water, or medicines."
+}
+
+
+
+@article{kogan,
+author = { Felix   Kogan  and  Tatiana   Adamenko  and  Wei   Guo },
+title = {Global and regional drought dynamics in the climate warming era},
+journal = {Remote Sensing Letters},
+volume = {4},
+number = {4},
+pages = {364-372},
+year  = {2013},
+publisher = {Taylor & Francis},
+doi = {10.1080/2150704X.2012.736033},
+URL = {https://doi.org/10.1080/2150704X.2012.736033},
+eprint = {https://doi.org/10.1080/2150704X.2012.736033}
+}
+
+@misc{stocker2013climate,
+  title={Climate change 2013: The physical science basis},
+  author={Stocker, Thomas F and Qin, Dahe and Plattner, Gian-Kasper and Tignor, Melinda and Allen, Simon K and Boschung, Judith and Nauels, Alexander and Xia, Yu and Bex, Vincent and Midgley, Pauline M and others},
+  year={2013},
+  publisher={Cambridge University Press Cambridge}
+}
+
+@article{tand,
+author = {Jeeyon Janet  Kim and Debarati Guha-Sapir},
+title = {Famines in Africa: is early warning early enough?},
+journal = {Global Health Action},
+volume = {5},
+number = {1},
+pages = {18481},
+year  = {2012},
+publisher = {Taylor & Francis},
+doi = {10.3402/gha.v5i0.18481},
+
+URL = { 
+        https://doi.org/10.3402/gha.v5i0.18481
+    
+},
+eprint = { 
+        https://doi.org/10.3402/gha.v5i0.18481
+}
+}
+
+
+
+
+
+@article{wmo2015wmo,
+  title={WMO Guidelines on Multi-Hazard Impact-Based Forecast and Warning Services},
+  author={WMO},
+  year={2015},
+  publisher={WHO Geneva}
+}
+
+
+@misc{FEWS,
+  title={Scenario Development for Food Security Early Warning},
+  author={FEWS-NET},
+  year={2018},
+  publisher={FEWS NET},
+  URL = {https://fews.net/sites/default/files/documents/reports/Guidance_Document_Scenario_Development_2018.pdf}
+}
+
+
+
+@article{10.1093/rsq/hdr006,
+    author = {Piguet, Etienne and Pécoud,, Antoine and de Guchteneire, Paul},
+    title = "{Migration and Climate Change: An Overview}",
+    journal = {Refugee Survey Quarterly},
+    volume = {30},
+    number = {3},
+    pages = {1-23},
+    year = {2011},
+    month = {06},
+    abstract = "{Climate change has become a major concern for the international community. Among its consequences, its impact on migration is the object of increasing attention from both policy-makers and researchers. Yet, knowledge in this field remains limited and fragmented. This article therefore provides an overview of the climate change – migration nexus: on the basis of available empirical findings, it investigates the key issues at stake, including the social and political context in which the topic emerged; States’ policy responses and the views of different institutional actors; critical perspectives on the actual relationship between the environment and (forced) migration; the concepts and notions most adequate to address this relationship; gender and human rights implications; as well as international law and policy orientations. Two major interconnected arguments arise. The first regards the weight of environmental and climatic factors in migration and their relationship to other push or pull factors, whether of a social, political, or economic nature. The second is about the political framework in which such migration flows should take place and the manner in which to treat the people who move in connection with environmental factors. The two issues are deeply intertwined, as the extent to which the environment determines migration is intimately connected to the status to be associated with the people concerned.}",
+    issn = {1020-4067},
+    doi = {10.1093/rsq/hdr006},
+    url = {https://doi.org/10.1093/rsq/hdr006},
+    eprint = {http://oup.prod.sis.lan/rsq/article-pdf/30/3/1/4460951/hdr006.pdf},
+}
+
+
+
+
+@article{ZHANG201796,
+title = "Studying drought phenomena in the Continental United States in 2011 and 2012 using various drought indices",
+journal = "Remote Sensing of Environment",
+volume = "190",
+pages = "96 - 106",
+year = "2017",
+issn = "0034-4257",
+doi = "https://doi.org/10.1016/j.rse.2016.12.010",
+url = "http://www.sciencedirect.com/science/article/pii/S0034425716304813",
+author = "Lifu Zhang and Wenzhe Jiao and Hongming Zhang and Changping Huang and Qingxi Tong",
+keywords = "Remote sensing, Drought, Condition index, Comparison, Climate divisions",
+abstract = "Numerous drought indices have been developed to monitor drought conditions. However, different drought indices have differing characteristics, and are suitable for specific environments. The aim of this study was to compare the occurrence of drought, as detected by remote sensing across the Continental United States (CONUS). We used drought events during 2011 and 2012 to compare various indices developed for the study of drought phenomena. Three in situ drought indices, the Palmer drought severity index (PDSI), Z-index and standardized precipitation indices (SPI) with different time scales were used to evaluate drought conditions in different climate divisions. The drought indices compared in this study include the vegetation condition index (VCI), the temperature condition index (TCI), the perpendicular drought index (PDI) and modified PDI (MPDI) derived from moderate-resolution imaging spectroradiometer (MODIS) data, the precipitation condition index (PCI) derived from tropical rainfall measuring mission (TRMM) data, and the soil moisture condition index (SMCI) derived from advanced microwave scanning radiometer - earth observing system (AMSR-E). Other synthesized drought indices, which combine indices such as VCI, TCI, SMCI and PCI, were also compared in this study. These included the vegetation health index (VHI), temperature vegetation dryness index (TVDI), scaled drought condition index (SDCI), the microwave integrated drought index (MIDI), the synthesized drought index (SDI), the optimized meteorological drought index (OMDI), and the optimized vegetation drought index (OVDI). The results include a wide variety of drought conditions based on different drought indices. Meteorological drought indices indicated that more regions were under severe drought than agricultural drought indices did. Drought indices appear to be more similar to standard drought indices than PDI, MPDI and TVDI. The results also indicate that different indices have strengths and weaknesses in different climates across CONUS. SMCI has a good correlation with short-term SPI, and the sensitivity of SMCI is strongly dependent on terrain, as it performs worse in regions with heavy tree cover than in regions with a low density of vegetation. TCI, VCI, PDI and MPDI are more similar to 3-month SPI data, but correlate weakly with station-based indices located in areas of high precipitation, higher soil permeability, large-scale agriculture and forests. PCI is more strongly correlated with short-term drought conditions in almost all climate divisions than other single indices. VCI would be more reliable if there were only red and NIR surface reflectance bands available, while VHI would be a better choice if only NDVI and LST data were available. Condition index-based drought indices (PCI, TCI, VCI, SMCI, VHI, SDCI, SDCI, MIDI, OVDI, OMDI) performed better than other categories of drought indices, and the use of time series analysis may be a contributing factor to this difference in performance."
+}
+
+@article{aghakouchak2015remote,
+  title={Remote sensing of drought: Progress, challenges and opportunities},
+  author={AghaKouchak, A and Farahmand, A and Melton, FS and Teixeira, J and Anderson, MC and Wardlow, Brian D and Hain, CR},
+  journal={Reviews of Geophysics},
+  volume={53},
+  number={2},
+  pages={452--480},
+  year={2015},
+  publisher={Wiley Online Library}
+}
+
+@article{zargar2011review,
+  title={A review of drought indices},
+  author={Zargar, Amin and Sadiq, Rehan and Naser, Bahman and Khan, Faisal I},
+  journal={Environmental Reviews},
+  volume={19},
+  number={NA},
+  pages={333--349},
+  year={2011},
+  publisher={NRC Research Press}
+}
+
+@article{MISHRA2010202,
+title = "A review of drought concepts",
+journal = "Journal of Hydrology",
+volume = "391",
+number = "1",
+pages = "202 - 216",
+year = "2010",
+issn = "0022-1694",
+doi = "https://doi.org/10.1016/j.jhydrol.2010.07.012",
+url = "http://www.sciencedirect.com/science/article/pii/S0022169410004257",
+author = "Ashok K. Mishra and Vijay P. Singh",
+keywords = "Definitions, Drought indices, Groundwater droughts, Large scale climate indices, Paleoclimatic study for droughts",
+abstract = "Summary
+Owing to the rise in water demand and looming climate change, recent years have witnessed much focus on global drought scenarios. As a natural hazard, drought is best characterized by multiple climatological and hydrological parameters. An understanding of the relationships between these two sets of parameters is necessary to develop measures for mitigating the impacts of droughts. Beginning with a discussion of drought definitions, this paper attempts to provide a review of fundamental concepts of drought, classification of droughts, drought indices, historical droughts using paleoclimatic studies, and the relation between droughts and large scale climate indices. Conclusions are drawn where gaps exist and more research needs to be focussed."
+}
+
+
+@Article{rs8040267,
+AUTHOR = {Klisch, Anja and Atzberger, Clement},
+TITLE = {Operational Drought Monitoring in Kenya Using MODIS NDVI Time Series},
+JOURNAL = {Remote Sensing},
+VOLUME = {8},
+YEAR = {2016},
+NUMBER = {4},
+ARTICLE-NUMBER = {267},
+URL = {http://www.mdpi.com/2072-4292/8/4/267},
+ISSN = {2072-4292},
+ABSTRACT = {Reliable drought information is of utmost importance for efficient drought management. This paper presents a fully operational processing chain for mapping drought occurrence, extent and strength based on Moderate Resolution Imaging Spectroradiometer (MODIS) normalized difference vegetation index (NDVI) data at 250 m resolution. Illustrations are provided for the territory of Kenya. The processing chain was developed at BOKU (University of Natural Resources and Life Sciences, Vienna, Austria) and employs a modified Whittaker smoother providing consistent (de-noised) NDVI “Monday-images” in near real-time (NRT), with time lags between zero and thirteen weeks. At a regular seven-day updating interval, the algorithm constrains modeled NDVI values based on reasonable temporal NDVI paths derived from corresponding (multi-year) NDVI “climatologies”. Contrary to other competing approaches, an uncertainty range is produced for each pixel, time step and time lag. To quantify drought strength, the vegetation condition index (VCI) is calculated at pixel level from the de-noised NDVI data and is spatially aggregated to administrative units. Besides the original weekly temporal resolution, the indicator is also aggregated to one- and three-monthly intervals. During spatial and temporal aggregations, uncertainty information is taken into account to down-weight less reliable observations. Based on the provided VCI, Kenya’s National Drought Management Authority (NDMA) has been releasing disaster contingency funds (DCF) to sustain counties in drought conditions since 2014. The paper illustrates the successful application of the drought products within NDMA by providing a retrospective analysis applied to droughts reported by regular food security assessments. We also present comparisons with alternative products of the US Agency for International Development (USAID)’s Famine Early Warning Systems Network (FEWS NET). We found an overall good agreement (R2 = 0.89) between the two datasets, but observed some persistent (seasonal and spatial) differences that should be assessed against external reference information.},
+DOI = {10.3390/rs8040267}
+}
+
+@Article{rs10091365,
+AUTHOR = {Holloway, Jacinta and Mengersen, Kerrie},
+TITLE = {Statistical Machine Learning Methods and Remote Sensing for Sustainable Development Goals: A Review},
+JOURNAL = {Remote Sensing},
+VOLUME = {10},
+YEAR = {2018},
+NUMBER = {9},
+ARTICLE-NUMBER = {1365},
+URL = {http://www.mdpi.com/2072-4292/10/9/1365},
+ISSN = {2072-4292},
+ABSTRACT = {Interest in statistical analysis of remote sensing data to produce measurements of environment, agriculture, and sustainable development is established and continues to increase, and this is leading to a growing interaction between the earth science and statistical domains. With this in mind, we reviewed the literature on statistical machine learning methods commonly applied to remote sensing data. We focus particularly on applications related to the United Nations World Bank Sustainable Development Goals, including agriculture (food security), forests (life on land), and water (water quality). We provide a review of useful statistical machine learning methods, how they work in a remote sensing context, and examples of their application to these types of data in the literature. Rather than prescribing particular methods for specific applications, we provide guidance, examples, and case studies from the literature for the remote sensing practitioner and applied statistician. In the supplementary material, we also describe the necessary steps pre and post analysis for remote sensing data; the pre-processing and evaluation steps.},
+DOI = {10.3390/rs10091365}
+}
+
+
+@Article{gpm,
+AUTHOR = {C. E. Rasmussen and C. K. I. Williams},
+TITLE = {Gaussian Processes for Machine Learning},
+PUBLISHER = {The MIT Press},
+YEAR = {2006},
+ISBN = {ISBN 0-262-18253-X},
+ABSTRACT = {},
+}
+
+@article{Papagiannopoulou,
+  abstract     = {Satellite Earth observation has led to the creation of global climate data records of many important environmental and climatic variables. These come in the form of multivariate time series with different spatial and temporal resolutions. Data of this kind provide new means to further unravel the influence of climate on vegetation dynamics. However, as advocated in this article, commonly used statistical methods are often too simplistic to represent complex climate-vegetation relationships due to linearity assumptions. Therefore, as an extension of linear Granger-causality analysis, we present a novel non-linear framework consisting of several components, such as data collection from various databases, time series decomposition techniques, feature construction methods, and predictive modelling by means of random forests. Experimental results on global data sets indicate that, with this framework, it is possible to detect non-linear patterns that are much less visible with traditional Granger-causality methods. In addition, we discuss extensive experimental results that highlight the importance of considering non-linear aspects of climate-vegetation dynamics.},
+  author       = {Papagiannopoulou, Christina and Gonzalez Miralles, Diego and Decubber, Stijn and Demuzere, Matthias and Verhoest, Niko and Dorigo, Wouter A and Waegeman, Willem},
+  issn         = {1991-9603},
+  journal      = {GEOSCIENTIFIC MODEL DEVELOPMENT},
+  keyword      = {GLOBAL TERRESTRIAL ECOSYSTEMS,SOIL-MOISTURE,RANDOM FORESTS,SURFACE-TEMPERATURE,CARBON-DIOXIDE,SAMPLE TESTS,TIME-SERIES,NDVI DATA,PRECIPITATION,SATELLITE},
+  language     = {eng},
+  number       = {5},
+  pages        = {1945--1960},
+  title        = {A non-linear Granger-causality framework to investigate climate-vegetation dynamics},
+  url          = {http://dx.doi.org/10.5194/gmd-10-1945-2017},
+  volume       = {10},
+  year         = {2017},
+}
+
+@article{Zambrano:2018,
+title = "Prediction of drought-induced reduction of agricultural productivity in Chile from MODIS, rainfall estimates, and climate oscillation indices",
+journal = "Remote Sensing of Environment",
+volume = "219",
+pages = "15 - 30",
+year = "2018",
+issn = "0034-4257",
+doi = "https://doi.org/10.1016/j.rse.2018.10.006",
+url = "http://www.sciencedirect.com/science/article/pii/S0034425718304541",
+author = "Francisco Zambrano and Anton Vrieling and Andy Nelson and Michele Meroni and Tsegaye Tadesse",
+keywords = "Early-warning, Drought, Agriculture, Productivity, Prediction, Chile, MODIS, zcNDVI, Phenology",
+abstract = "Global food security is negatively affected by drought. Climate projections show that drought frequency and intensity may increase in different parts of the globe. These increases are particularly hazardous for developing countries. Early season forecasts on drought occurrence and severity could help to better mitigate the negative consequences of drought. The objective of this study was to assess if interannual variability in agricultural productivity in Chile can be accurately predicted from freely-available, near real-time data sources. As the response variable, we used the standard score of seasonal cumulative NDVI (zcNDVI), based on 2000–2017 data from Moderate Resolution Imaging Spectroradiometer (MODIS), as a proxy for anomalies of seasonal primary productivity. The predictions were performed with forecast lead times from one- to six-month before the end of the growing season, which varied between census units in Chile. Predictor variables included the zcNDVI obtained by cumulating NDVI from season start up to prediction time; standardised precipitation indices derived from satellite rainfall estimates, for time-scales of 1, 3, 6, 12 and 24 months; the Pacific Decadal Oscillation and the Multivariate ENSO oscillation indices; the length of the growing season, and latitude and longitude. For each of the 758 census units considered, the time series of the response and the predictor variables were averaged for agricultural areas resulting in a 17-season time series per unit for each variable. We used two prediction approaches: (i) optimal linear regression (OLR) whereby for each census unit the single predictor was selected that best explained the interannual zcNDVI variability, and (ii) a multi-layer feedforward neural network architecture, often called deep learning (DL), where all predictors for all units were combined in a single spatio-temporal model. Both approaches were evaluated with a leave-one-year-out cross-validation procedure. Both methods showed good prediction accuracies for small lead times and similar values for all lead times. The mean Rcv2 values for OLR were 0.95, 0.83, 0.68, 0.56, 0.46 and 0.37, against 0.96, 0.84, 0.65, 0.54, 0.46 and 0.38 for DL, for one, two, three, four, five, and six months lead time, respectively. Given the wide range of climates and vegetation types covered within the study area, we expect that the presented models can contribute to an improved early warning system for agricultural drought in different geographical settings around the globe."
+}
+
+@article{Asoka:2015,
+author = {Asoka, Akarsh and Mishra, Vimal},
+title = {Prediction of vegetation anomalies to improve food security and water management in India},
+journal = {Geophysical Research Letters},
+volume = {42},
+number = {13},
+pages = {5290-5298},
+keywords = {NDVI, forecast, vegetation dynamics, food security, water management, ENSO},
+doi = {10.1002/2015GL063991},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015GL063991},
+eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015GL063991},
+abstract = {Abstract Prediction of vegetation anomalies at regional scales is essential for management of food and water resources. Forecast of vegetation anomalies at 1–3 months lead time can help in decision making. Here we show that normalized difference vegetation index (NDVI) along with other hydroclimatic variables (soil moisture and sea surface temperature) can be effectively used to predict vegetation anomalies in India. The spatiotemporal analysis of NDVI showed significant greening over the region during the period of 1982–2013. The root-zone soil moisture showed a positive correlation with NDVI, whereas the El Niño–Southern Oscillation index (Nino 3.4) is negatively correlated in most of the regions. We extended this relationship to develop a model to predict NDVI in 1 to 3 months lead time. The predicted vegetation anomalies compare well with observations, which can be effectively utilized in early warning and better planning in water resources and agricultural sectors in India.},
+year = {2015}
+}
+
+@article{Granger:1969,
+ ISSN = {00129682, 14680262},
+ URL = {http://www.jstor.org/stable/1912791},
+ abstract = {There occurs on some occasions a difficulty in deciding the direction of causality between two related variables and also whether or not feedback is occurring. Testable definitions of causality and feedback are proposed and illustrated by use of simple two-variable models. The important problem of apparent instantaneous causality is discussed and it is suggested that the problem often arises due to slowness in recording information or because a sufficiently wide class of possible causal variables has not been used. It can be shown that the cross spectrum between two variables can be decomposed into two parts, each relating to a single causal arm of a feedback situation. Measures of causal lag and causal strength can then be constructed. A generalisation of this result with the partial cross spectrum is suggested.},
+ author = {C. W. J. Granger},
+ journal = {Econometrica},
+ number = {3},
+ pages = {424--438},
+ publisher = {[Wiley, Econometric Society]},
+ title = {Investigating Causal Relations by Econometric Models and Cross-spectral Methods},
+ volume = {37},
+ year = {1969}
+}
+
+@article{Jiang:2006,
+title = "Analysis of NDVI and scaled difference vegetation index retrievals of vegetation fraction",
+journal = "Remote Sensing of Environment",
+volume = "101",
+number = "3",
+pages = "366 - 378",
+year = "2006",
+issn = "0034-4257",
+doi = "https://doi.org/10.1016/j.rse.2006.01.003",
+url = "http://www.sciencedirect.com/science/article/pii/S0034425706000290",
+author = "Zhangyan Jiang and Alfredo R. Huete and Jin Chen and Yunhao Chen and Jing Li and Guangjian Yan and Xiaoyu Zhang",
+keywords = "NDVI, SDVI, Scale effect of NDVI, Vegetation fraction retrieval",
+abstract = "The normalized difference vegetation index (NDVI) is the most widely used vegetation index for retrieval of vegetation canopy biophysical properties. Several studies have investigated the spatial scale dependencies of NDVI and the relationship between NDVI and fractional vegetation cover, but without any consensus on the two issues. The objectives of this paper are to analyze the spatial scale dependencies of NDVI and to analyze the relationship between NDVI and fractional vegetation cover at different resolutions based on linear spectral mixing models. Our results show strong spatial scale dependencies of NDVI over heterogeneous surfaces, indicating that NDVI values at different resolutions may not be comparable. The nonlinearity of NDVI over partially vegetated surfaces becomes prominent with darker soil backgrounds and with presence of shadow. Thus, the NDVI may not be suitable to infer vegetation fraction because of its nonlinearity and scale effects. We found that the scaled difference vegetation index (SDVI), a scale-invariant index based on linear spectral mixing of red and near-infrared reflectances, is a more suitable and robust approach for retrieval of vegetation fraction with remote sensing data, particularly over heterogeneous surfaces. The proposed method was validated with experimental field data, but further validation at the satellite level would be needed."
+}
+
+@article{Geweke:1982,
+author = { John   Geweke },
+title = {Measurement of Linear Dependence and Feedback between Multiple Time Series},
+journal = {Journal of the American Statistical Association},
+volume = {77},
+number = {378},
+pages = {304-313},
+year  = {1982},
+publisher = {Taylor & Francis},
+doi = {10.1080/01621459.1982.10477803},
+
+URL = { 
+        https://amstat.tandfonline.com/doi/abs/10.1080/01621459.1982.10477803
+    
+},
+eprint = { 
+        https://amstat.tandfonline.com/doi/pdf/10.1080/01621459.1982.10477803
+    
+}
+
+}
+
+@article{Kogan:1990,
+author = { F. N.   Kogan},
+title = {Remote sensing of weather impacts on vegetation in non-homogeneous areas},
+journal = {International Journal of Remote Sensing},
+volume = {11},
+number = {8},
+pages = {1405-1419},
+year  = {1990},
+publisher = {Taylor & Francis},
+doi = {10.1080/01431169008955102},
+
+URL = { 
+        https://doi.org/10.1080/01431169008955102
+    
+},
+eprint = { 
+        https://doi.org/10.1080/01431169008955102
+    
+}
+
+}
+
+
+@article{Wu:2015,
+author = {Wu, Donghai and Zhao, Xiang and Liang, Shunlin and Zhou, Tao and Huang, Kaicheng and Tang, Bijian and Zhao, Wenqian},
+title = {Time-lag effects of global vegetation responses to climate change},
+journal = {Global Change Biology},
+volume = {21},
+number = {9},
+pages = {3520-3531},
+keywords = {climate change, GIMMS3g NDVI, precipitation, solar radiation, temperature, time-lag effects, vegetation growth},
+doi = {10.1111/gcb.12945},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.12945},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/gcb.12945},
+abstract = {Abstract Climate conditions significantly affect vegetation growth in terrestrial ecosystems. Due to the spatial heterogeneity of ecosystems, the vegetation responses to climate vary considerably with the diverse spatial patterns and the time-lag effects, which are the most important mechanism of climate–vegetation interactive effects. Extensive studies focused on large-scale vegetation–climate interactions use the simultaneous meteorological and vegetation indicators to develop models; however, the time-lag effects are less considered, which tends to increase uncertainty. In this study, we aim to quantitatively determine the time-lag effects of global vegetation responses to different climatic factors using the GIMMS3g NDVI time series and the CRU temperature, precipitation, and solar radiation datasets. First, this study analyzed the time-lag effects of global vegetation responses to different climatic factors. Then, a multiple linear regression model and partial correlation model were established to statistically analyze the roles of different climatic factors on vegetation responses, from which the primary climate-driving factors for different vegetation types were determined. The results showed that (i) both the time-lag effects of the vegetation responses and the major climate-driving factors that significantly affect vegetation growth varied significantly at the global scale, which was related to the diverse vegetation and climate characteristics; (ii) regarding the time-lag effects, the climatic factors explained 64\% variation of the global vegetation growth, which was 11\% relatively higher than the model ignoring the time-lag effects; (iii) for the area with a significant change trend (for the period 1982–2008) in the global GIMMS3g NDVI (P < 0.05), the primary driving factor was temperature; and (iv) at the regional scale, the variation in vegetation growth was also related to human activities and natural disturbances. Considering the time-lag effects is quite important for better predicting and evaluating the vegetation dynamics under the background of global climate change.},,
+year = {2015}
+}
+
+@article{Jiang:2015,
+author = {Jiang, Bo and Liang, Shunlin and Yuan, Wenping},
+title = {Observational evidence for impacts of vegetation change on local surface climate over northern China using the Granger causality test},
+journal = {Journal of Geophysical Research: Biogeosciences},
+volume = {120},
+number = {1},
+pages = {1-12},
+keywords = {Three-North Shelter Forest Program, NDVI, meteorological measurements, remote sensing, climate feedback, Granger causality},
+doi = {10.1002/2014JG002741},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2014JG002741},
+eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2014JG002741},
+abstract = {Abstract The three-north region in China (northeastern, northwestern, and northern China) is one of the most environmentally vulnerable regions in the country. To improve the local natural environment, the Chinese government launched the Three-North Shelter Forest Program, one of the largest afforestation/reforestation programs in the world. This program has led to significant changes in vegetation. Although many studies have evaluated the impacts of vegetation changes on local climate in this region, their results are highly inconsistent. In this study, evidence for local monthly climate impacts of vegetation change was investigated using remotely sensed data and ground meteorological measurements during the growing season (May to September) from 1982 to 2011 using the bivariate Granger causality test. The results showed that the local near-surface climate is sensitive mostly to vegetation changes characterized by the normalized difference vegetation index (NDVI) in arid and semiarid regions and that vegetation plays a more important role in influencing hydroclimate in the arid/semiarid zones than in other zones, which has great implications for water resources in this dry region. Moreover, NDVI changes in northeastern China have a significantly negative influence on air tembut no other climatic variables, whereas the test results in northern China is not as objective as the other zones due to the rapid urbanization. All these results suggest that the local climate is very sensitive to the variations in vegetation in arid and semiarid regions, so extra caution should be taken when planting trees in this area.},,
+year = {2015}
+}
+
+@article{Kaufmann:2003,
+author = {Kaufmann, R. K. and Zhou, L. and Myneni, R. B. and Tucker, C. J. and Slayback, D. and Shabanov, N. V. and Pinzon, Jorge},
+title = {The effect of vegetation on surface temperature: A statistical analysis of NDVI and climate data},
+journal = {Geophysical Research Letters},
+volume = {30},
+number = {22},
+pages = {},
+doi = {10.1029/2003GL018251},
+url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2003GL018251},
+eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2003GL018251},
+abstract = {We use statistical techniques to quantify the effect of interannual variations in vegetation within land covers on surface temperature in North America and Eurasia from satellite measures of surface greenness and ground based meteorological observations. During the winter, reductions in the extent of snow cover cause (in a statistical sense) temperature to rise. During the summer, increases in terrestrial vegetation within land covers cause (in a statistical sense) temperature to fall. Temperature-induced increases in vegetation have slowed increases in surface temperature, but this feedback may be limited by the range over which temperature has a positive effect on vegetation.},,
+year = {2003}
+}
+
+@article{Chen2004,
+abstract = {Although the Normalized Difference Vegetation Index (NDVI) time-series data, derived from NOAA/AVHRR, SPOT/VEGETATION, TERRA or AQUA/MODIS, has been successfully used in research regarding global environmental change, residual noise in the NDVI time-series data, even after applying strict pre-processing, impedes further analysis and risks generating erroneous results. Based on the assumptions that NDVI time-series follow annual cycles of growth and decline of vegetation, and that clouds or poor atmospheric conditions usually depress NDVI values, we have developed in the present study a simple but robust method based on the Savitzky-Golay filter to smooth out noise in NDVI time-series, specifically that caused primarily by cloud contamination and atmospheric variability. Our method was developed to make data approach the upper NDVI envelope and to reflect the changes in NDVI patterns via an iteration process. From the results obtained by applying the newly developed method to a 10-day MVC SPOT VGT-S product, we provide optimized parameters for the new method and compare this technique with the BISE algorithm and Fourier-based fitting method. Our results indicate that the new method is more effective in obtaining high-quality NDVI time-series. {\textcopyright} 2004 Elsevier Inc. All rights reserved.},
+author = {Chen, Jin and J{\"{o}}nsson, Per and Tamura, Masayuki and Gu, Zhihui and Matsushita, Bunkei and Eklundh, Lars},
+doi = {10.1016/j.rse.2004.03.014},
+file = {:Users/Eddie/Box/Academics/My PhD/Journals/1-s2.0-S003442570400080X-main.pdf:pdf},
+isbn = {0034-4257},
+issn = {00344257},
+journal = {Remote Sensing of Environment},
+keywords = {NDVI,SPOT vegetation,Savitzky-Golay filter,Time-series data set},
+number = {3-4},
+pages = {332--344},
+pmid = {24},
+title = {{A simple method for reconstructing a high-quality NDVI time-series data set based on the Savitzky-Golay filter}},
+volume = {91},
+year = {2004}
+}
+
+@misc{Schaaf2015,
+author = {Schaaf, Crystal and Wang, Z.},
+booktitle = {NASA EOSDIS Land Processes DAAC.},
+doi = {10.5067/MODIS/MCD43A4.006},
+title = {{MCD43A4 MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF Adjusted Ref Daily L3 Global - 500m V006 [Data set]}},
+url = {https://lpdaac.usgs.gov/dataset{\_}discovery/modis/modis{\_}products{\_}table/mcd43a4{\_}v006},
+year = {2015}
+}
+
+@article{Savitzky1964,
+author = {Savitzky, Abraham. and Golay, M. J. E.},
+doi = {10.1021/ac60214a047},
+issn = {0003-2700},
+journal = {Analytical Chemistry},
+month = {jul},
+number = {8},
+pages = {1627--1639},
+title = {{Smoothing and Differentiation of Data by Simplified Least Squares Procedures.}},
+url = {http://pubs.acs.org/doi/abs/10.1021/ac60214a047},
+volume = {36},
+year = {1964}
+}
+
+
+
+@article{Chen2004,
+abstract = {Although the Normalized Difference Vegetation Index (NDVI) time-series data, derived from NOAA/AVHRR, SPOT/VEGETATION, TERRA or AQUA/MODIS, has been successfully used in research regarding global environmental change, residual noise in the NDVI time-series data, even after applying strict pre-processing, impedes further analysis and risks generating erroneous results. Based on the assumptions that NDVI time-series follow annual cycles of growth and decline of vegetation, and that clouds or poor atmospheric conditions usually depress NDVI values, we have developed in the present study a simple but robust method based on the Savitzky-Golay filter to smooth out noise in NDVI time-series, specifically that caused primarily by cloud contamination and atmospheric variability. Our method was developed to make data approach the upper NDVI envelope and to reflect the changes in NDVI patterns via an iteration process. From the results obtained by applying the newly developed method to a 10-day MVC SPOT VGT-S product, we provide optimized parameters for the new method and compare this technique with the BISE algorithm and Fourier-based fitting method. Our results indicate that the new method is more effective in obtaining high-quality NDVI time-series. {\textcopyright} 2004 Elsevier Inc. All rights reserved.},
+author = {Chen, Jin and J{\"{o}}nsson, Per and Tamura, Masayuki and Gu, Zhihui and Matsushita, Bunkei and Eklundh, Lars},
+doi = {10.1016/j.rse.2004.03.014},
+isbn = {0034-4257},
+issn = {00344257},
+journal = {Remote Sensing of Environment},
+keywords = {NDVI,SPOT vegetation,Savitzky-Golay filter,Time-series data set},
+number = {3-4},
+pages = {332--344},
+pmid = {24},
+title = {{A simple method for reconstructing a high-quality NDVI time-series data set based on the Savitzky-Golay filter}},
+volume = {91},
+year = {2004}
+}
+
+
+@techreport{UNDP2013,
+abstract = {Kenya's geographic location makes it inherently prone to cyclical droughts and floods. Moreover, according to the Initial
+National Communication (INC), such types of cyclical climate-driven events will increase in intensity and frequency due to
+global climate change. Livelihoods and economic activities in Kenya's are highly vulnerable to climatic fluctuations, with
+the districts of the Arid and Semi-Arid Lands (ASALs) being among the most vulnerable to recurrent droughts, and to longterm climate change. The rural poor are the most vulnerable to the impacts of Kenya's current climate variability. In
+response this project is supporting poor and vulnerable communities in the Mwingi District of the Arid and Semi-Arid
+Lands (ASALs) to enhance their adaptive capacity to drought (and flood). Working in the pilot areas, this is being achieved
+through enhanced access to and management of water for irrigation, promotion of indigenous crops that more resilient to
+anticipated climate (and improved access to markets for these crops), and promoting livestock varieties that are more
+suited to the climate, development and promotion of alternative livelihood opportunities (such as beekeeping activities).
+The project is also strengthening climate risk management planning and capacity of District level planners to mainstream
+climate change into District-level sectoral development plans. Extension workers will be supported to improve their
+adaptation extension advice to farmers based on best available climate forecast information. },
+author = {UNDP},
+file = {::},
+title = {{KENYA – ADAPTATION TO CLIMATE CHANGE IN ARID LANDS (KACCAL) - KENYA CASE STUDY}},
+url = {http://gefonline.org/projectDetailsSQL.cfm?projID=3792.},
+year = {2013}
+}
+
+@techreport{FAO2014,
+author = {FAO},
+file = {::},
+title = {{Food and Agriculture Organization(FAO) COUNTRY PROGRAMMING FRAMEWORK FOR KENYA (2014-2017)}},
+url = {www.fao.org/publications},
+year = {2014}
+}
+
+@techreport{Behnke2011,
+author = {Behnke, Roy and Muthami, David},
+file = {::},
+title = {{The Contribution of Livestock to the Kenyan Economy}},
+url = {https://cgspace.cgiar.org/bitstream/handle/10568/24972/IGAD{\_}LPI{\_}WP{\_}03-11.pdf?sequence=1{\&}isAllowed=y},
+year = {2011}
+}
+
+@article{Weiss2014,
+abstract = {The archives of imagery and modeled data products derived from remote sensing programs with high temporal resolution provide powerful resources for characterizing inter- and intra-annual environmental dynamics. The impressive depth of available time-series from such missions (e.g., MODIS and AVHRR) affords new opportunities for improving data usability by leveraging spatial and temporal information inherent to longitudinal geospatial datasets. In this research we develop an approach for filling gaps in imagery time-series that result primarily from cloud cover, which is particularly problematic in forested equatorial regions. Our approach consists of two, complementary gap-filling algorithms and a variety of run-time options that allow users to balance competing demands of model accuracy and processing time. We applied the gap-filling methodology to MODIS Enhanced Vegetation Index (EVI) and daytime and nighttime Land Surface Temperature (LST) datasets for the African continent for 2000–2012, with a 1km spatial resolution, and an 8-day temporal resolution. We validated the method by introducing and filling artificial gaps, and then comparing the original data with model predictions. Our approach achieved R2 values above 0.87 even for pixels within 500km wide introduced gaps. Furthermore, the structure of our approach allows estimation of the error associated with each gap-filled pixel based on the distance to the non-gap pixels used to model its fill value, thus providing a mechanism for including uncertainty associated with the gap-filling process in downstream applications of the resulting datasets.},
+author = {Weiss, Daniel J. and Atkinson, Peter M. and Bhatt, Samir and Mappin, Bonnie and Hay, Simon I. and Gething, Peter W.},
+doi = {10.1016/J.ISPRSJPRS.2014.10.001},
+file = {:Users/eddie/Library/Application Support/Mendeley Desktop/Downloaded/Weiss et al. - 2014 - An effective approach for gap-filling continental scale remotely sensed time-series.pdf:pdf},
+issn = {0924-2716},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+month = {dec},
+pages = {106--118},
+publisher = {Elsevier},
+title = {{An effective approach for gap-filling continental scale remotely sensed time-series}},
+url = {https://www.sciencedirect.com/science/article/pii/S0924271614002512},
+volume = {98},
+year = {2014}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

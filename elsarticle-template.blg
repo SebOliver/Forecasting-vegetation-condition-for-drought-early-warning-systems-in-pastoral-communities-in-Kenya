@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: elsarticle-template.aux
+The style file: model4-names.bst
+Illegal, another \bibstyle command---line 20 of file elsarticle-template.aux
+ : \bibstyle
+ :          {elsarticle-num}
+I'm skipping whatever remains of this command
+Database file #1: mybibfile.bib
+You're missing a field name---line 800 of file mybibfile.bib
+ : abstract = {Abstract Climate conditions significantly affect vegetation growth in terrestrial ecosystems. Due to the spatial heterogeneity of ecosystems, the vegetation responses to climate vary considerably with the diverse spatial patterns and the time-lag effects, which are the most important mechanism of climate–vegetation interactive effects. Extensive studies focused on large-scale vegetation–climate interactions use the simultaneous meteorological and vegetation indicators to develop models; however, the time-lag effects are less considered, which tends to increase uncertainty. In this study, we aim to quantitatively determine the time-lag effects of global vegetation responses to different climatic factors using the GIMMS3g NDVI time series and the CRU temperature, precipitation, and solar radiation datasets. First, this study analyzed the time-lag effects of global vegetation responses to different climatic factors. Then, a multiple linear regression model and partial correlation model were established to statistically analyze the roles of different climatic factors on vegetation responses, from which the primary climate-driving factors for different vegetation types were determined. The results showed that (i) both the time-lag effects of the vegetation responses and the major climate-driving factors that significantly affect vegetation growth varied significantly at the global scale, which was related to the diverse vegetation and climate characteristics; (ii) regarding the time-lag effects, the climatic factors explained 64\% variation of the global vegetation growth, which was 11\% relatively higher than the model ignoring the time-lag effects; (iii) for the area with a significant change trend (for the period 1982–2008) in the global GIMMS3g NDVI (P < 0.05), the primary driving factor was temperature; and (iv) at the regional scale, the variation in vegetation growth was also related to human activities and natural disturbances. Considering the time-lag effects is quite important for better predicting and evaluating the vegetation dynamics under the background of global climate change.},
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 815 of file mybibfile.bib
+ : abstract = {Abstract The three-north region in China (northeastern, northwestern, and northern China) is one of the most environmentally vulnerable regions in the country. To improve the local natural environment, the Chinese government launched the Three-North Shelter Forest Program, one of the largest afforestation/reforestation programs in the world. This program has led to significant changes in vegetation. Although many studies have evaluated the impacts of vegetation changes on local climate in this region, their results are highly inconsistent. In this study, evidence for local monthly climate impacts of vegetation change was investigated using remotely sensed data and ground meteorological measurements during the growing season (May to September) from 1982 to 2011 using the bivariate Granger causality test. The results showed that the local near-surface climate is sensitive mostly to vegetation changes characterized by the normalized difference vegetation index (NDVI) in arid and semiarid regions and that vegetation plays a more important role in influencing hydroclimate in the arid/semiarid zones than in other zones, which has great implications for water resources in this dry region. Moreover, NDVI changes in northeastern China have a significantly negative influence on air tembut no other climatic variables, whereas the test results in northern China is not as objective as the other zones due to the rapid urbanization. All these results suggest that the local climate is very sensitive to the variations in vegetation in arid and semiarid regions, so extra caution should be taken when planting trees in this area.},
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 829 of file mybibfile.bib
+ : abstract = {We use statistical techniques to quantify the effect of interannual variations in vegetation within land covers on surface temperature in North America and Eurasia from satellite measures of surface greenness and ground based meteorological observations. During the winter, reductions in the extent of snow cover cause (in a statistical sense) temperature to rise. During the summer, increases in terrestrial vegetation within land covers cause (in a statistical sense) temperature to fall. Temperature-induced increases in vegetation have slowed increases in surface temperature, but this feedback may be limited by the range over which temperature has a positive effect on vegetation.},
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 875 of file mybibfile.bib
+ : @article{Chen2004
+ :                  ,
+I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--missing institution in Behnke2011
+Warning--can't use both volume and number fields in pmlr-v28-duvenaud13
+Warning--missing institution in FAO2014
+Warning--empty booktitle in Galvin2001ImpactsOC
+Warning--empty pages in Galvin2001ImpactsOC
+`journal' is a missing field, not a string, for entry orindi2007pastoral
+while executing---line 1676 of file model4-names.bst
+Warning--empty journal in orindi2007pastoral
+`journal' is a missing field, not a string, for entry gpm
+while executing---line 1676 of file model4-names.bst
+Warning--empty journal in gpm
+Warning--missing institution in UNDP2013
+`journal' is a missing field, not a string, for entry wmo2015wmo
+while executing---line 1676 of file model4-names.bst
+Warning--empty journal in wmo2015wmo
+You've used 50 entries,
+            3271 wiz_defined-function locations,
+            1074 strings with 19858 characters,
+and the built_in function-call counts, 49223 in all, are:
+= -- 3984
+> -- 1867
+< -- 22
++ -- 734
+- -- 662
+* -- 5902
+:= -- 6736
+add.period$ -- 224
+call.type$ -- 50
+change.case$ -- 474
+chr.to.int$ -- 50
+cite$ -- 59
+duplicate$ -- 3895
+empty$ -- 3734
+format.name$ -- 827
+if$ -- 9404
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 596
+newline$ -- 302
+num.names$ -- 202
+pop$ -- 919
+preamble$ -- 1
+purify$ -- 419
+quote$ -- 0
+skip$ -- 772
+stack$ -- 0
+substring$ -- 3603
+swap$ -- 2272
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 447
+warning$ -- 9
+while$ -- 241
+width$ -- 0
+write$ -- 811
+(There were 8 error messages)

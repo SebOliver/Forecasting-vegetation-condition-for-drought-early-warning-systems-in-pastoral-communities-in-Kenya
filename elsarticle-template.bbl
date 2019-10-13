@@ -1,0 +1,575 @@
+\begin{thebibliography}{50}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\undefined \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Adede et~al.(2019)Adede, Oboko, Wagacha and Atzberger}]{Adede2019}
+\bibinfo{author}{Adede\xfnm[ C.]}, \bibinfo{author}{Oboko\xfnm[ R.]},
+  \bibinfo{author}{Wagacha\xfnm[ P.W.]}, \bibinfo{author}{Atzberger\xfnm[ C.]}.
+\newblock \bibinfo{title}{{A Mixed Model Approach to Vegetation Condition
+  Prediction Using Artificial Neural Networks (ANN): Case of Kenya's
+  Operational Drought Monitoring}}.
+\newblock \bibinfo{journal}{Remote Sensing}
+  \bibinfo{year}{2019};\bibinfo{volume}{11}(\bibinfo{number}{9}):\bibinfo{pages}{1099}.
+\newblock \URLprefix \url{https://www.mdpi.com/2072-4292/11/9/1099}.
+  \DOIprefix\doi{10.3390/rs11091099}.
+%Type = Article
+\bibitem[{AghaKouchak et~al.(2015)AghaKouchak, Farahmand, Melton, Teixeira,
+  Anderson, Wardlow and Hain}]{aghakouchak2015remote}
+\bibinfo{author}{AghaKouchak\xfnm[ A.]}, \bibinfo{author}{Farahmand\xfnm[ A.]},
+  \bibinfo{author}{Melton\xfnm[ F.]}, \bibinfo{author}{Teixeira\xfnm[ J.]},
+  \bibinfo{author}{Anderson\xfnm[ M.]}, \bibinfo{author}{Wardlow\xfnm[ B.D.]},
+  \bibinfo{author}{Hain\xfnm[ C.]}.
+\newblock \bibinfo{title}{Remote sensing of drought: Progress, challenges and
+  opportunities}.
+\newblock \bibinfo{journal}{Reviews of Geophysics}
+  \bibinfo{year}{2015};\bibinfo{volume}{53}(\bibinfo{number}{2}):\bibinfo{pages}{452--480}.
+%Type = Article
+\bibitem[{Asoka and Mishra(2015)}]{Asoka:2015}
+\bibinfo{author}{Asoka\xfnm[ A.]}, \bibinfo{author}{Mishra\xfnm[ V.]}.
+\newblock \bibinfo{title}{Prediction of vegetation anomalies to improve food
+  security and water management in india}.
+\newblock \bibinfo{journal}{Geophysical Research Letters}
+  \bibinfo{year}{2015};\bibinfo{volume}{42}(\bibinfo{number}{13}):\bibinfo{pages}{5290--5298}.
+\newblock \URLprefix
+  \url{https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2015GL063991}.
+  \DOIprefix\doi{10.1002/2015GL063991}.
+  \href{http://arxiv.org/abs/https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015GL063991}{\tt
+  arXiv:https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2015GL063991}.
+%Type = Techreport
+\bibitem[{Behnke and Muthami(2011)}]{Behnke2011}
+\bibinfo{author}{Behnke\xfnm[ R.]}, \bibinfo{author}{Muthami\xfnm[ D.]}.
+\newblock \bibinfo{title}{{The Contribution of Livestock to the Kenyan
+  Economy}}.
+\newblock \bibinfo{type}{Technical Report}; \bibinfo{year}{2011}.
+\newblock \URLprefix
+  \url{https://cgspace.cgiar.org/bitstream/handle/10568/24972/IGAD{\_}LPI{\_}WP{\_}03-11.pdf?sequence=1{\&}isAllowed=y}.
+%Type = Article
+\bibitem[{Bhuiyan et~al.(2006)Bhuiyan, Singh and Kogan}]{BHUIYAN2006289}
+\bibinfo{author}{Bhuiyan\xfnm[ C.]}, \bibinfo{author}{Singh\xfnm[ R.]},
+  \bibinfo{author}{Kogan\xfnm[ F.]}.
+\newblock \bibinfo{title}{Monitoring drought dynamics in the aravalli region
+  (india) using different indices based on ground and remote sensing data}.
+\newblock \bibinfo{journal}{International Journal of Applied Earth Observation
+  and Geoinformation}
+  \bibinfo{year}{2006};\bibinfo{volume}{8}(\bibinfo{number}{4}):\bibinfo{pages}{289
+  -- 302}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S030324340600016X}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.jag.2006.03.002}.
+%Type = Inproceedings
+\bibitem[{{Brahim-Belhouari} and {Vesin}(2001)}]{955315}
+\bibinfo{author}{{Brahim-Belhouari}\xfnm[ S.]}, \bibinfo{author}{{Vesin}\xfnm[
+  J.M.]}.
+\newblock \bibinfo{title}{Bayesian learning using gaussian process for time
+  series prediction}.
+\newblock In: \bibinfo{booktitle}{Proceedings of the 11th IEEE Signal
+  Processing Workshop on Statistical Signal Processing (Cat. No.01TH8563)}.
+  \bibinfo{year}{2001}. p. \bibinfo{pages}{433--436}.
+\newblock \DOIprefix\doi{10.1109/SSP.2001.955315}.
+%Type = Article
+\bibitem[{Brown and Kshirsagar(2015)}]{BROWN201531}
+\bibinfo{author}{Brown\xfnm[ M.E.]}, \bibinfo{author}{Kshirsagar\xfnm[ V.]}.
+\newblock \bibinfo{title}{Weather and international price shocks on food prices
+  in the developing world}.
+\newblock \bibinfo{journal}{Global Environmental Change}
+  \bibinfo{year}{2015};\bibinfo{volume}{35}:\bibinfo{pages}{31 -- 40}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0959378015300248}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.gloenvcha.2015.08.003}.
+%Type = Article
+\bibitem[{Camps-Valls et~al.(2016)Camps-Valls, Verrelst, Munoz-Mari, Laparra,
+  Mateo-Jimenez and Gomez-Dans}]{7487896}
+\bibinfo{author}{Camps-Valls\xfnm[ G.]}, \bibinfo{author}{Verrelst\xfnm[ J.]},
+  \bibinfo{author}{Munoz-Mari\xfnm[ J.]}, \bibinfo{author}{Laparra\xfnm[ V.]},
+  \bibinfo{author}{Mateo-Jimenez\xfnm[ F.]}, \bibinfo{author}{Gomez-Dans\xfnm[
+  J.]}.
+\newblock \bibinfo{title}{A survey on gaussian processes for earth-observation
+  data analysis: A comprehensive investigation}.
+\newblock \bibinfo{journal}{IEEE Geoscience and Remote Sensing Magazine}
+  \bibinfo{year}{2016};\bibinfo{volume}{4}(\bibinfo{number}{2}):\bibinfo{pages}{58--78}.
+\newblock \DOIprefix\doi{10.1109/MGRS.2015.2510084}.
+%Type = Article
+\bibitem[{Cao et~al.(2018)Cao, Chen, Shen, Chen, Zhou, Wang and
+  Yang}]{Cao:2018}
+\bibinfo{author}{Cao\xfnm[ R.]}, \bibinfo{author}{Chen\xfnm[ Y.]},
+  \bibinfo{author}{Shen\xfnm[ M.]}, \bibinfo{author}{Chen\xfnm[ J.]},
+  \bibinfo{author}{Zhou\xfnm[ J.]}, \bibinfo{author}{Wang\xfnm[ C.]},
+  \bibinfo{author}{Yang\xfnm[ W.]}.
+\newblock \bibinfo{title}{A simple method to improve the quality of ndvi
+  time-series data by integrating spatiotemporal information with the
+  savitzky-golay filter}.
+\newblock \bibinfo{journal}{Remote Sensing of Environment}
+  \bibinfo{year}{2018};\bibinfo{volume}{217}:\bibinfo{pages}{244 -- 257}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0034425718303985}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.rse.2018.08.022}.
+%Type = Article
+\bibitem[{Chandola and Vatsavai(2011)}]{Chandola2010SCALABLETS}
+\bibinfo{author}{Chandola\xfnm[ V.]}, \bibinfo{author}{Vatsavai\xfnm[ R.R.]}.
+\newblock \bibinfo{title}{A scalable gaussian process analysis algorithm for
+  biomass monitoring}.
+\newblock \bibinfo{journal}{Statistical Analysis and Data Mining: The ASA Data
+  Science Journal}
+  \bibinfo{year}{2011};\bibinfo{volume}{4}(\bibinfo{number}{4}):\bibinfo{pages}{430--445}.
+\newblock \URLprefix
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/sam.10129}.
+  \DOIprefix\doi{10.1002/sam.10129}.
+  \href{http://arxiv.org/abs/https://onlinelibrary.wiley.com/doi/pdf/10.1002/sam.10129}{\tt
+  arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1002/sam.10129}.
+%Type = Article
+\bibitem[{Chen et~al.(2004)Chen, J{\"{o}}nsson, Tamura, Gu, Matsushita and
+  Eklundh}]{Chen2004}
+\bibinfo{author}{Chen\xfnm[ J.]}, \bibinfo{author}{J{\"{o}}nsson\xfnm[ P.]},
+  \bibinfo{author}{Tamura\xfnm[ M.]}, \bibinfo{author}{Gu\xfnm[ Z.]},
+  \bibinfo{author}{Matsushita\xfnm[ B.]}, \bibinfo{author}{Eklundh\xfnm[ L.]}.
+\newblock \bibinfo{title}{{A simple method for reconstructing a high-quality
+  NDVI time-series data set based on the Savitzky-Golay filter}}.
+\newblock \bibinfo{journal}{Remote Sensing of Environment}
+  \bibinfo{year}{2004};\bibinfo{volume}{91}(\bibinfo{number}{3-4}):\bibinfo{pages}{332--344}.
+\newblock \DOIprefix\doi{10.1016/j.rse.2004.03.014}.
+%Type = Inproceedings
+\bibitem[{Duvenaud et~al.(2013)Duvenaud, Lloyd, Grosse, Tenenbaum and
+  Zoubin}]{pmlr-v28-duvenaud13}
+\bibinfo{author}{Duvenaud\xfnm[ D.]}, \bibinfo{author}{Lloyd\xfnm[ J.]},
+  \bibinfo{author}{Grosse\xfnm[ R.]}, \bibinfo{author}{Tenenbaum\xfnm[ J.]},
+  \bibinfo{author}{Zoubin\xfnm[ G.]}.
+\newblock \bibinfo{title}{Structure discovery in nonparametric regression
+  through compositional kernel search}.
+\newblock In: \bibinfo{editor}{Dasgupta\xfnm[ S.]},
+  \bibinfo{editor}{McAllester\xfnm[ D.]}, editors.
+  \bibinfo{booktitle}{Proceedings of the 30th International Conference on
+  Machine Learning}. \bibinfo{address}{Atlanta, Georgia, USA}:
+  \bibinfo{publisher}{PMLR}; volume~\bibinfo{volume}{28} of
+  \textit{\bibinfo{series}{Proceedings of Machine Learning Research}};
+  \bibinfo{year}{2013}. p. \bibinfo{pages}{1166--1174}.
+\newblock \URLprefix \url{http://proceedings.mlr.press/v28/duvenaud13.html}.
+%Type = Techreport
+\bibitem[{FAO(2014)}]{FAO2014}
+\bibinfo{author}{FAO\xfnm[]}.
+\newblock \bibinfo{title}{{Food and Agriculture Organization(FAO) COUNTRY
+  PROGRAMMING FRAMEWORK FOR KENYA (2014-2017)}}.
+\newblock \bibinfo{type}{Technical Report}; \bibinfo{year}{2014}.
+\newblock \URLprefix \url{www.fao.org/publications}.
+%Type = Misc
+\bibitem[{FEWS-NET(2018)}]{FEWS}
+\bibinfo{author}{FEWS-NET\xfnm[]}.
+\newblock \bibinfo{title}{Scenario development for food security early
+  warning}.
+\newblock \bibinfo{year}{2018}.
+\newblock \URLprefix
+  \url{https://fews.net/sites/default/files/documents/reports/Guidance_Document_Scenario_Development_2018.pdf}.
+%Type = Inproceedings
+\bibitem[{Galvin et~al.(2001)Galvin, Boone, Smith and
+  Lynn}]{Galvin2001ImpactsOC}
+\bibinfo{author}{Galvin\xfnm[ K.A.]}, \bibinfo{author}{Boone\xfnm[ R.B.]},
+  \bibinfo{author}{Smith\xfnm[ N.M.S.]}, \bibinfo{author}{Lynn\xfnm[ S.M.]}.
+\newblock \bibinfo{title}{Impacts of climate variability on east african
+  pastoralists: linking social science and remote sensing}.
+\newblock \bibinfo{year}{2001}. .
+%Type = Book
+\bibitem[{Hamilton(1994)}]{Hamilton94}
+\bibinfo{author}{Hamilton\xfnm[ J.]}.
+\newblock \bibinfo{title}{Time series analysis}.
+\newblock \bibinfo{address}{Princeton, NJ}: \bibinfo{publisher}{Princeton
+  University Press}, \bibinfo{year}{1994}.
+%Type = Article
+\bibitem[{Kandasamy et~al.(2013)Kandasamy, Baret, Verger, Neveux and
+  Weiss}]{bg-10-4055-2013}
+\bibinfo{author}{Kandasamy\xfnm[ S.]}, \bibinfo{author}{Baret\xfnm[ F.]},
+  \bibinfo{author}{Verger\xfnm[ A.]}, \bibinfo{author}{Neveux\xfnm[ P.]},
+  \bibinfo{author}{Weiss\xfnm[ M.]}.
+\newblock \bibinfo{title}{A comparison of methods for smoothing and gap filling
+  time series of remote sensing observations ndash; application to modis lai
+  products}.
+\newblock \bibinfo{journal}{Biogeosciences}
+  \bibinfo{year}{2013};\bibinfo{volume}{10}(\bibinfo{number}{6}):\bibinfo{pages}{4055--4071}.
+\newblock \URLprefix \url{https://www.biogeosciences.net/10/4055/2013/}.
+  \DOIprefix\doi{10.5194/bg-10-4055-2013}.
+%Type = Article
+\bibitem[{Kim and Guha-Sapir(2012)}]{tand}
+\bibinfo{author}{Kim\xfnm[ J.J.]}, \bibinfo{author}{Guha-Sapir\xfnm[ D.]}.
+\newblock \bibinfo{title}{Famines in africa: is early warning early enough?}
+\newblock \bibinfo{journal}{Global Health Action}
+  \bibinfo{year}{2012};\bibinfo{volume}{5}(\bibinfo{number}{1}):\bibinfo{pages}{18481}.
+\newblock \URLprefix \url{https://doi.org/10.3402/gha.v5i0.18481}.
+  \DOIprefix\doi{10.3402/gha.v5i0.18481}.
+  \href{http://arxiv.org/abs/https://doi.org/10.3402/gha.v5i0.18481}{\tt
+  arXiv:https://doi.org/10.3402/gha.v5i0.18481}.
+%Type = Article
+\bibitem[{Klisch and Atzberger(2016)}]{rs8040267}
+\bibinfo{author}{Klisch\xfnm[ A.]}, \bibinfo{author}{Atzberger\xfnm[ C.]}.
+\newblock \bibinfo{title}{Operational drought monitoring in kenya using modis
+  ndvi time series}.
+\newblock \bibinfo{journal}{Remote Sensing}
+  \bibinfo{year}{2016};\bibinfo{volume}{8}(\bibinfo{number}{4}).
+\newblock \URLprefix \url{http://www.mdpi.com/2072-4292/8/4/267}.
+  \DOIprefix\doi{10.3390/rs8040267}.
+%Type = Article
+\bibitem[{Kogan(1995)}]{KOGAN199591}
+\bibinfo{author}{Kogan\xfnm[ F.]}.
+\newblock \bibinfo{title}{Application of vegetation index and brightness
+  temperature for drought detection}.
+\newblock \bibinfo{journal}{Advances in Space Research}
+  \bibinfo{year}{1995};\bibinfo{volume}{15}(\bibinfo{number}{11}):\bibinfo{pages}{91
+  -- 100}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/027311779500079T}.
+  \DOIprefix\doi{https://doi.org/10.1016/0273-1177(95)00079-T};
+  \bibinfo{note}{natural Hazards: Monitoring and Assessment Using Remote
+  Sensing Technique}.
+%Type = Article
+\bibitem[{Kogan et~al.(2013)Kogan, Adamenko and Guo}]{kogan}
+\bibinfo{author}{Kogan\xfnm[ F.]}, \bibinfo{author}{Adamenko\xfnm[ T.]},
+  \bibinfo{author}{Guo\xfnm[ W.]}.
+\newblock \bibinfo{title}{Global and regional drought dynamics in the climate
+  warming era}.
+\newblock \bibinfo{journal}{Remote Sensing Letters}
+  \bibinfo{year}{2013};\bibinfo{volume}{4}(\bibinfo{number}{4}):\bibinfo{pages}{364--372}.
+\newblock \URLprefix \url{https://doi.org/10.1080/2150704X.2012.736033}.
+  \DOIprefix\doi{10.1080/2150704X.2012.736033}.
+  \href{http://arxiv.org/abs/https://doi.org/10.1080/2150704X.2012.736033}{\tt
+  arXiv:https://doi.org/10.1080/2150704X.2012.736033}.
+%Type = Article
+\bibitem[{Lesk et~al.(2016)Lesk, Rowhani and Ramankutty}]{Lesk}
+\bibinfo{author}{Lesk\xfnm[ C.]}, \bibinfo{author}{Rowhani\xfnm[ P.]},
+  \bibinfo{author}{Ramankutty\xfnm[ N.]}.
+\newblock \bibinfo{title}{Influence of extreme weather disasters on global crop
+  production}.
+\newblock \bibinfo{journal}{Nature}
+  \bibinfo{year}{2016};\bibinfo{volume}{529}:\bibinfo{pages}{84 EP --}.
+\newblock \URLprefix \url{https://doi.org/10.1038/nature16467}.
+%Type = Article
+\bibitem[{Mishra and Singh(2010)}]{MISHRA2010202}
+\bibinfo{author}{Mishra\xfnm[ A.K.]}, \bibinfo{author}{Singh\xfnm[ V.P.]}.
+\newblock \bibinfo{title}{A review of drought concepts}.
+\newblock \bibinfo{journal}{Journal of Hydrology}
+  \bibinfo{year}{2010};\bibinfo{volume}{391}(\bibinfo{number}{1}):\bibinfo{pages}{202
+  -- 216}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0022169410004257}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.jhydrol.2010.07.012}.
+%Type = Article
+\bibitem[{Nelson et~al.(2014)Nelson, Valin, Sands, Havl{\'\i}k, Ahammad,
+  Deryng, Elliott, Fujimori, Hasegawa, Heyhoe, Kyle, Von~Lampe, Lotze-Campen,
+  Mason~d{\textquoteright}Croz, van Meijl, van~der Mensbrugghe, M{\"u}ller,
+  Popp, Robertson, Robinson, Schmid, Schmitz, Tabeau and
+  Willenbockel}]{Nelson3274}
+\bibinfo{author}{Nelson\xfnm[ G.C.]}, \bibinfo{author}{Valin\xfnm[ H.]},
+  \bibinfo{author}{Sands\xfnm[ R.D.]}, \bibinfo{author}{Havl{\'\i}k\xfnm[ P.]},
+  \bibinfo{author}{Ahammad\xfnm[ H.]}, \bibinfo{author}{Deryng\xfnm[ D.]},
+  \bibinfo{author}{Elliott\xfnm[ J.]}, \bibinfo{author}{Fujimori\xfnm[ S.]},
+  \bibinfo{author}{Hasegawa\xfnm[ T.]}, \bibinfo{author}{Heyhoe\xfnm[ E.]},
+  \bibinfo{author}{Kyle\xfnm[ P.]}, \bibinfo{author}{Von~Lampe\xfnm[ M.]},
+  \bibinfo{author}{Lotze-Campen\xfnm[ H.]},
+  \bibinfo{author}{Mason~d{\textquoteright}Croz\xfnm[ D.]},
+  \bibinfo{author}{van Meijl\xfnm[ H.]}, \bibinfo{author}{van~der
+  Mensbrugghe\xfnm[ D.]}, \bibinfo{author}{M{\"u}ller\xfnm[ C.]},
+  \bibinfo{author}{Popp\xfnm[ A.]}, \bibinfo{author}{Robertson\xfnm[ R.]},
+  \bibinfo{author}{Robinson\xfnm[ S.]}, \bibinfo{author}{Schmid\xfnm[ E.]},
+  \bibinfo{author}{Schmitz\xfnm[ C.]}, \bibinfo{author}{Tabeau\xfnm[ A.]},
+  \bibinfo{author}{Willenbockel\xfnm[ D.]}.
+\newblock \bibinfo{title}{Climate change effects on agriculture: Economic
+  responses to biophysical shocks}.
+\newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \bibinfo{year}{2014};\bibinfo{volume}{111}(\bibinfo{number}{9}):\bibinfo{pages}{3274--3279}.
+\newblock \URLprefix \url{https://www.pnas.org/content/111/9/3274}.
+  \DOIprefix\doi{10.1073/pnas.1222465110}.
+  \href{http://arxiv.org/abs/https://www.pnas.org/content/111/9/3274.full.pdf}{\tt
+  arXiv:https://www.pnas.org/content/111/9/3274.full.pdf}.
+%Type = Article
+\bibitem[{Nyong et~al.(2007)Nyong, Adesina and Osman~Elasha}]{Nyong2007}
+\bibinfo{author}{Nyong\xfnm[ A.]}, \bibinfo{author}{Adesina\xfnm[ F.]},
+  \bibinfo{author}{Osman~Elasha\xfnm[ B.]}.
+\newblock \bibinfo{title}{The value of indigenous knowledge in climate change
+  mitigation and adaptation strategies in the african sahel}.
+\newblock \bibinfo{journal}{Mitigation and Adaptation Strategies for Global
+  Change}
+  \bibinfo{year}{2007};\bibinfo{volume}{12}(\bibinfo{number}{5}):\bibinfo{pages}{787--797}.
+\newblock \URLprefix \url{https://doi.org/10.1007/s11027-007-9099-0}.
+  \DOIprefix\doi{10.1007/s11027-007-9099-0}.
+%Type = Article
+\bibitem[{Orindi et~al.(2007)Orindi, Nyong and Herrero}]{orindi2007pastoral}
+\bibinfo{author}{Orindi\xfnm[ V.]}, \bibinfo{author}{Nyong\xfnm[ A.]},
+  \bibinfo{author}{Herrero\xfnm[ M.T.]}.
+\newblock \bibinfo{title}{Pastoral livelihood adaptation to drought and
+  institutional interventions in kenya} \bibinfo{year}{2007};.
+%Type = Article
+\bibitem[{Papagiannopoulou et~al.(2017)Papagiannopoulou, Gonzalez~Miralles,
+  Decubber, Demuzere, Verhoest, Dorigo and Waegeman}]{Papagiannopoulou}
+\bibinfo{author}{Papagiannopoulou\xfnm[ C.]},
+  \bibinfo{author}{Gonzalez~Miralles\xfnm[ D.]},
+  \bibinfo{author}{Decubber\xfnm[ S.]}, \bibinfo{author}{Demuzere\xfnm[ M.]},
+  \bibinfo{author}{Verhoest\xfnm[ N.]}, \bibinfo{author}{Dorigo\xfnm[ W.A.]},
+  \bibinfo{author}{Waegeman\xfnm[ W.]}.
+\newblock \bibinfo{title}{A non-linear granger-causality framework to
+  investigate climate-vegetation dynamics}.
+\newblock \bibinfo{journal}{GEOSCIENTIFIC MODEL DEVELOPMENT}
+  \bibinfo{year}{2017};\bibinfo{volume}{10}(\bibinfo{number}{5}):\bibinfo{pages}{1945--1960}.
+\newblock \URLprefix \url{http://dx.doi.org/10.5194/gmd-10-1945-2017}.
+%Type = Article
+\bibitem[{Coughlan~de Perez et~al.(2015)Coughlan~de Perez, van~den Hurk, van
+  Aalst, Jongman, Klose and Suarez}]{nhess-15-895-2015}
+\bibinfo{author}{Coughlan~de Perez\xfnm[ E.]}, \bibinfo{author}{van~den
+  Hurk\xfnm[ B.]}, \bibinfo{author}{van Aalst\xfnm[ M.K.]},
+  \bibinfo{author}{Jongman\xfnm[ B.]}, \bibinfo{author}{Klose\xfnm[ T.]},
+  \bibinfo{author}{Suarez\xfnm[ P.]}.
+\newblock \bibinfo{title}{Forecast-based financing: an approach for catalyzing
+  humanitarian action based on extreme weather and climate forecasts}.
+\newblock \bibinfo{journal}{Natural Hazards and Earth System Sciences}
+  \bibinfo{year}{2015};\bibinfo{volume}{15}(\bibinfo{number}{4}):\bibinfo{pages}{895--904}.
+\newblock \URLprefix
+  \url{https://www.nat-hazards-earth-syst-sci.net/15/895/2015/}.
+  \DOIprefix\doi{10.5194/nhess-15-895-2015}.
+%Type = Article
+\bibitem[{Piguet et~al.(2011)Piguet, Pécoud and
+  de~Guchteneire}]{10.1093/rsq/hdr006}
+\bibinfo{author}{Piguet\xfnm[ E.]}, \bibinfo{author}{Pécoud\xfnm[ A.]},
+  \bibinfo{author}{de~Guchteneire\xfnm[ P.]}.
+\newblock \bibinfo{title}{{Migration and Climate Change: An Overview}}.
+\newblock \bibinfo{journal}{Refugee Survey Quarterly}
+  \bibinfo{year}{2011};\bibinfo{volume}{30}(\bibinfo{number}{3}):\bibinfo{pages}{1--23}.
+\newblock \URLprefix \url{https://doi.org/10.1093/rsq/hdr006}.
+  \DOIprefix\doi{10.1093/rsq/hdr006}.
+  \href{http://arxiv.org/abs/http://oup.prod.sis.lan/rsq/article-pdf/30/3/1/4460951/hdr006.pdf}{\tt
+  arXiv:http://oup.prod.sis.lan/rsq/article-pdf/30/3/1/4460951/hdr006.pdf}.
+%Type = Article
+\bibitem[{Tozier de~la Poterie and Baudoin(2015)}]{TozierdelaPoterie2015}
+\bibinfo{author}{Tozier de~la Poterie\xfnm[ A.]},
+  \bibinfo{author}{Baudoin\xfnm[ M.A.]}.
+\newblock \bibinfo{title}{From yokohama to sendai: Approaches to participation
+  in international disaster risk reduction frameworks}.
+\newblock \bibinfo{journal}{International Journal of Disaster Risk Science}
+  \bibinfo{year}{2015};\bibinfo{volume}{6}(\bibinfo{number}{2}):\bibinfo{pages}{128--139}.
+\newblock \URLprefix \url{https://doi.org/10.1007/s13753-015-0053-6}.
+  \DOIprefix\doi{10.1007/s13753-015-0053-6}.
+%Type = Article
+\bibitem[{Rasmussen and Williams(2006)}]{gpm}
+\bibinfo{author}{Rasmussen\xfnm[ C.E.]}, \bibinfo{author}{Williams\xfnm[
+  C.K.I.]}.
+\newblock \bibinfo{title}{Gaussian processes for machine learning}
+  \bibinfo{year}{2006};.
+%Type = Article
+\bibitem[{Rojas et~al.(2011)Rojas, Vrieling and Rembold}]{ROJAS2011343}
+\bibinfo{author}{Rojas\xfnm[ O.]}, \bibinfo{author}{Vrieling\xfnm[ A.]},
+  \bibinfo{author}{Rembold\xfnm[ F.]}.
+\newblock \bibinfo{title}{Assessing drought probability for agricultural areas
+  in africa with coarse resolution remote sensing imagery}.
+\newblock \bibinfo{journal}{Remote Sensing of Environment}
+  \bibinfo{year}{2011};\bibinfo{volume}{115}(\bibinfo{number}{2}):\bibinfo{pages}{343
+  -- 352}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0034425710002798}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.rse.2010.09.006}.
+%Type = Article
+\bibitem[{Roy et~al.(2014)Roy, Wulder, Loveland, Woodcock, Allen, Anderson,
+  Helder, Irons, Johnson, Kennedy, Scambos, Schaaf, Schott, Sheng, Vermote,
+  Belward, Bindschadler, Wohen, Gao and Zhu}]{royetal}
+\bibinfo{author}{Roy\xfnm[ D.]}, \bibinfo{author}{Wulder\xfnm[ M.]},
+  \bibinfo{author}{Loveland\xfnm[ T.]}, \bibinfo{author}{Woodcock\xfnm[ C.]},
+  \bibinfo{author}{Allen\xfnm[ R.]}, \bibinfo{author}{Anderson\xfnm[ M.]},
+  \bibinfo{author}{Helder\xfnm[ D.]}, \bibinfo{author}{Irons\xfnm[ J.]},
+  \bibinfo{author}{Johnson\xfnm[ D.]}, \bibinfo{author}{Kennedy\xfnm[ R.]},
+  \bibinfo{author}{Scambos\xfnm[ T.]}, \bibinfo{author}{Schaaf\xfnm[ C.]},
+  \bibinfo{author}{Schott\xfnm[ J.]}, \bibinfo{author}{Sheng\xfnm[ Y.]},
+  \bibinfo{author}{Vermote\xfnm[ E.]}, \bibinfo{author}{Belward\xfnm[ A.]},
+  \bibinfo{author}{Bindschadler\xfnm[ R.]}, \bibinfo{author}{Wohen\xfnm[ W.]},
+  \bibinfo{author}{Gao\xfnm[ F.]}, \bibinfo{author}{Zhu\xfnm[ Z.]}.
+\newblock \bibinfo{title}{Landsat-8: Science and product vision for terrestrial
+  global change research}.
+\newblock \bibinfo{journal}{Remote Sensing of Environment}
+  \bibinfo{year}{2014};\bibinfo{volume}{2014}:\bibinfo{pages}{154--172}.
+\newblock \DOIprefix\doi{10.1016/j.rse.2014.02.001}.
+%Type = Article
+\bibitem[{Rulinda et~al.(2011)Rulinda, Bijker and Stein}]{RULINDA201132}
+\bibinfo{author}{Rulinda\xfnm[ C.M.]}, \bibinfo{author}{Bijker\xfnm[ W.]},
+  \bibinfo{author}{Stein\xfnm[ A.]}.
+\newblock \bibinfo{title}{The chlorophyll variability in meteosat derived ndvi
+  in a context of drought monitoring}.
+\newblock \bibinfo{journal}{Procedia Environmental Sciences}
+  \bibinfo{year}{2011};\bibinfo{volume}{3}:\bibinfo{pages}{32 -- 37}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S1878029611000089}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.proenv.2011.02.007};
+  \bibinfo{note}{1st Conference on Spatial Statistics 2011 – Mapping Global
+  Change}.
+%Type = Article
+\bibitem[{Sai et~al.(2018)Sai, Cumiskey, Weerts, Bhattacharya and
+  Haque~Khan}]{nhess-2018-26}
+\bibinfo{author}{Sai\xfnm[ F.]}, \bibinfo{author}{Cumiskey\xfnm[ L.]},
+  \bibinfo{author}{Weerts\xfnm[ A.]}, \bibinfo{author}{Bhattacharya\xfnm[ B.]},
+  \bibinfo{author}{Haque~Khan\xfnm[ R.]}.
+\newblock \bibinfo{title}{Towards impact-based flood forecasting and warning in
+  bangladesh: a case study at the local level in sirajganj district}.
+\newblock \bibinfo{journal}{Natural Hazards and Earth System Sciences
+  Discussions}
+  \bibinfo{year}{2018};\bibinfo{volume}{2018}:\bibinfo{pages}{1--20}.
+\newblock \URLprefix
+  \url{https://www.nat-hazards-earth-syst-sci-discuss.net/nhess-2018-26/}.
+  \DOIprefix\doi{10.5194/nhess-2018-26}.
+%Type = Article
+\bibitem[{Savitzky and Golay(1964)}]{Savitzky1964}
+\bibinfo{author}{Savitzky\xfnm[ A.]}, \bibinfo{author}{Golay\xfnm[ M.J.E.]}.
+\newblock \bibinfo{title}{{Smoothing and Differentiation of Data by Simplified
+  Least Squares Procedures.}}
+\newblock \bibinfo{journal}{Analytical Chemistry}
+  \bibinfo{year}{1964};\bibinfo{volume}{36}(\bibinfo{number}{8}):\bibinfo{pages}{1627--1639}.
+\newblock \URLprefix \url{http://pubs.acs.org/doi/abs/10.1021/ac60214a047}.
+  \DOIprefix\doi{10.1021/ac60214a047}.
+%Type = Misc
+\bibitem[{Schaaf and Wang(2015)}]{Schaaf2015}
+\bibinfo{author}{Schaaf\xfnm[ C.]}, \bibinfo{author}{Wang\xfnm[ Z.]}.
+\newblock \bibinfo{title}{{MCD43A4 MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF
+  Adjusted Ref Daily L3 Global - 500m V006 [Data set]}}.
+\newblock \bibinfo{year}{2015}.
+\newblock \URLprefix
+  \url{https://lpdaac.usgs.gov/dataset{\_}discovery/modis/modis{\_}products{\_}table/mcd43a4{\_}v006}.
+  \DOIprefix\doi{10.5067/MODIS/MCD43A4.006}.
+%Type = Article
+\bibitem[{Stanke et~al.(2013)Stanke, Kerac, Prudhomme, Medlock and
+  Murray}]{Stanke}
+\bibinfo{author}{Stanke\xfnm[ C.]}, \bibinfo{author}{Kerac\xfnm[ M.]},
+  \bibinfo{author}{Prudhomme\xfnm[ C.]}, \bibinfo{author}{Medlock\xfnm[ J.]},
+  \bibinfo{author}{Murray\xfnm[ V.]}.
+\newblock \bibinfo{title}{Health effects of drought: a systematic review of the
+  evidence}.
+\newblock \bibinfo{journal}{PLoS currents}
+  \bibinfo{year}{2013};\bibinfo{volume}{5}.
+\newblock \URLprefix \url{https://www.ncbi.nlm.nih.gov/pubmed/23787891}.
+%Type = Misc
+\bibitem[{Stocker et~al.(2013)Stocker, Qin, Plattner, Tignor, Allen, Boschung,
+  Nauels, Xia, Bex, Midgley et~al.}]{stocker2013climate}
+\bibinfo{author}{Stocker\xfnm[ T.F.]}, \bibinfo{author}{Qin\xfnm[ D.]},
+  \bibinfo{author}{Plattner\xfnm[ G.K.]}, \bibinfo{author}{Tignor\xfnm[ M.]},
+  \bibinfo{author}{Allen\xfnm[ S.K.]}, \bibinfo{author}{Boschung\xfnm[ J.]},
+  \bibinfo{author}{Nauels\xfnm[ A.]}, \bibinfo{author}{Xia\xfnm[ Y.]},
+  \bibinfo{author}{Bex\xfnm[ V.]}, \bibinfo{author}{Midgley\xfnm[ P.M.]},
+  et~al.
+\newblock \bibinfo{title}{Climate change 2013: The physical science basis}.
+\newblock \bibinfo{year}{2013}.
+%Type = Article
+\bibitem[{Tierney et~al.(2015)Tierney, Ummenhofer and
+  deMenocal}]{Tierneye1500682}
+\bibinfo{author}{Tierney\xfnm[ J.E.]}, \bibinfo{author}{Ummenhofer\xfnm[
+  C.C.]}, \bibinfo{author}{deMenocal\xfnm[ P.B.]}.
+\newblock \bibinfo{title}{Past and future rainfall in the horn of africa}.
+\newblock \bibinfo{journal}{Science Advances}
+  \bibinfo{year}{2015};\bibinfo{volume}{1}(\bibinfo{number}{9}).
+\newblock \URLprefix
+  \url{https://advances.sciencemag.org/content/1/9/e1500682}.
+  \DOIprefix\doi{10.1126/sciadv.1500682}.
+  \href{http://arxiv.org/abs/https://advances.sciencemag.org/content/1/9/e1500682.full.pdf}{\tt
+  arXiv:https://advances.sciencemag.org/content/1/9/e1500682.full.pdf}.
+%Type = Techreport
+\bibitem[{UNDP(2013)}]{UNDP2013}
+\bibinfo{author}{UNDP\xfnm[]}.
+\newblock \bibinfo{title}{{KENYA – ADAPTATION TO CLIMATE CHANGE IN ARID LANDS
+  (KACCAL) - KENYA CASE STUDY}}.
+\newblock \bibinfo{type}{Technical Report}; \bibinfo{year}{2013}.
+\newblock \URLprefix
+  \url{http://gefonline.org/projectDetailsSQL.cfm?projID=3792.}
+%Type = Article
+\bibitem[{Upreti et~al.(2019)Upreti, Huang, Kong, Pascucci, Pignatti, Zhou, Ye
+  and Casa}]{rs11050481}
+\bibinfo{author}{Upreti\xfnm[ D.]}, \bibinfo{author}{Huang\xfnm[ W.]},
+  \bibinfo{author}{Kong\xfnm[ W.]}, \bibinfo{author}{Pascucci\xfnm[ S.]},
+  \bibinfo{author}{Pignatti\xfnm[ S.]}, \bibinfo{author}{Zhou\xfnm[ X.]},
+  \bibinfo{author}{Ye\xfnm[ H.]}, \bibinfo{author}{Casa\xfnm[ R.]}.
+\newblock \bibinfo{title}{A comparison of hybrid machine learning algorithms
+  for the retrieval of wheat biophysical variables from sentinel-2}.
+\newblock \bibinfo{journal}{Remote Sensing}
+  \bibinfo{year}{2019};\bibinfo{volume}{11}(\bibinfo{number}{5}).
+\newblock \URLprefix \url{http://www.mdpi.com/2072-4292/11/5/481}.
+  \DOIprefix\doi{10.3390/rs11050481}.
+%Type = Article
+\bibitem[{Venton et~al.(2012)Venton, Fitzgibbon, Shitarek, Coulter and
+  Dooley}]{venton2012economics}
+\bibinfo{author}{Venton\xfnm[ C.C.]}, \bibinfo{author}{Fitzgibbon\xfnm[ C.]},
+  \bibinfo{author}{Shitarek\xfnm[ T.]}, \bibinfo{author}{Coulter\xfnm[ L.]},
+  \bibinfo{author}{Dooley\xfnm[ O.]}.
+\newblock \bibinfo{title}{The economics of early response and disaster
+  resilience: lessons from kenya and ethiopia}.
+\newblock \bibinfo{journal}{Final report} \bibinfo{year}{2012};.
+%Type = Article
+\bibitem[{Vrieling et~al.(2016)Vrieling, Meroni, Mude, Chantarat, Ummenhofer
+  and de~Bie}]{VRIELING201644}
+\bibinfo{author}{Vrieling\xfnm[ A.]}, \bibinfo{author}{Meroni\xfnm[ M.]},
+  \bibinfo{author}{Mude\xfnm[ A.G.]}, \bibinfo{author}{Chantarat\xfnm[ S.]},
+  \bibinfo{author}{Ummenhofer\xfnm[ C.C.]}, \bibinfo{author}{de~Bie\xfnm[
+  K.C.]}.
+\newblock \bibinfo{title}{Early assessment of seasonal forage availability for
+  mitigating the impact of drought on east african pastoralists}.
+\newblock \bibinfo{journal}{Remote Sensing of Environment}
+  \bibinfo{year}{2016};\bibinfo{volume}{174}:\bibinfo{pages}{44 -- 55}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0034425715302248}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.rse.2015.12.003}.
+%Type = Article
+\bibitem[{Weiss et~al.(2014)Weiss, Atkinson, Bhatt, Mappin, Hay and
+  Gething}]{Weiss2014}
+\bibinfo{author}{Weiss\xfnm[ D.J.]}, \bibinfo{author}{Atkinson\xfnm[ P.M.]},
+  \bibinfo{author}{Bhatt\xfnm[ S.]}, \bibinfo{author}{Mappin\xfnm[ B.]},
+  \bibinfo{author}{Hay\xfnm[ S.I.]}, \bibinfo{author}{Gething\xfnm[ P.W.]}.
+\newblock \bibinfo{title}{{An effective approach for gap-filling continental
+  scale remotely sensed time-series}}.
+\newblock \bibinfo{journal}{ISPRS Journal of Photogrammetry and Remote Sensing}
+  \bibinfo{year}{2014};\bibinfo{volume}{98}:\bibinfo{pages}{106--118}.
+\newblock \URLprefix
+  \url{https://www.sciencedirect.com/science/article/pii/S0924271614002512}.
+  \DOIprefix\doi{10.1016/J.ISPRSJPRS.2014.10.001}.
+%Type = Article
+\bibitem[{WMO(2015)}]{wmo2015wmo}
+\bibinfo{author}{WMO\xfnm[]}.
+\newblock \bibinfo{title}{Wmo guidelines on multi-hazard impact-based forecast
+  and warning services} \bibinfo{year}{2015};.
+%Type = Article
+\bibitem[{Yang and Huntingford(2018)}]{yang2018brief}
+\bibinfo{author}{Yang\xfnm[ H.]}, \bibinfo{author}{Huntingford\xfnm[ C.]}.
+\newblock \bibinfo{title}{Brief communication. drought likelihood for east
+  africa}.
+\newblock \bibinfo{journal}{Natural Hazards and Earth System Sciences}
+  \bibinfo{year}{2018};\bibinfo{volume}{18}(\bibinfo{number}{2}):\bibinfo{pages}{491--497}.
+%Type = Article
+\bibitem[{Zambrano et~al.(2018)Zambrano, Vrieling, Nelson, Meroni and
+  Tadesse}]{ZAMBRANO201815}
+\bibinfo{author}{Zambrano\xfnm[ F.]}, \bibinfo{author}{Vrieling\xfnm[ A.]},
+  \bibinfo{author}{Nelson\xfnm[ A.]}, \bibinfo{author}{Meroni\xfnm[ M.]},
+  \bibinfo{author}{Tadesse\xfnm[ T.]}.
+\newblock \bibinfo{title}{Prediction of drought-induced reduction of
+  agricultural productivity in chile from modis, rainfall estimates, and
+  climate oscillation indices}.
+\newblock \bibinfo{journal}{Remote Sensing of Environment}
+  \bibinfo{year}{2018};\bibinfo{volume}{219}:\bibinfo{pages}{15 -- 30}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0034425718304541}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.rse.2018.10.006}.
+%Type = Article
+\bibitem[{Zargar et~al.(2011)Zargar, Sadiq, Naser and Khan}]{zargar2011review}
+\bibinfo{author}{Zargar\xfnm[ A.]}, \bibinfo{author}{Sadiq\xfnm[ R.]},
+  \bibinfo{author}{Naser\xfnm[ B.]}, \bibinfo{author}{Khan\xfnm[ F.I.]}.
+\newblock \bibinfo{title}{A review of drought indices}.
+\newblock \bibinfo{journal}{Environmental Reviews}
+  \bibinfo{year}{2011};\bibinfo{volume}{19}(\bibinfo{number}{NA}):\bibinfo{pages}{333--349}.
+%Type = Article
+\bibitem[{Zhang et~al.(2017)Zhang, Jiao, Zhang, Huang and Tong}]{ZHANG201796}
+\bibinfo{author}{Zhang\xfnm[ L.]}, \bibinfo{author}{Jiao\xfnm[ W.]},
+  \bibinfo{author}{Zhang\xfnm[ H.]}, \bibinfo{author}{Huang\xfnm[ C.]},
+  \bibinfo{author}{Tong\xfnm[ Q.]}.
+\newblock \bibinfo{title}{Studying drought phenomena in the continental united
+  states in 2011 and 2012 using various drought indices}.
+\newblock \bibinfo{journal}{Remote Sensing of Environment}
+  \bibinfo{year}{2017};\bibinfo{volume}{190}:\bibinfo{pages}{96 -- 106}.
+\newblock \URLprefix
+  \url{http://www.sciencedirect.com/science/article/pii/S0034425716304813}.
+  \DOIprefix\doi{https://doi.org/10.1016/j.rse.2016.12.010}.
+
+\end{thebibliography}

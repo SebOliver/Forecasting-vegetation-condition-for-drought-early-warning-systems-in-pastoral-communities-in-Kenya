@@ -1,26 +1,20 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Study area}{}% 2
-\BOOKMARK [1][-]{section.3}{Data}{}% 3
+\BOOKMARK [1][-]{section.2}{Study area and our chosen drought indicator}{}% 2
+\BOOKMARK [1][-]{section.3}{Data preprocessing}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Landsat}{section.3}% 4
 \BOOKMARK [2][-]{subsection.3.2}{MODIS}{section.3}% 5
-\BOOKMARK [1][-]{section.4}{Pre-processing}{}% 6
-\BOOKMARK [2][-]{subsection.4.1}{Temporal gridding and gap-filling}{section.4}% 7
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Gridding and gap-filling on Landsat data using Gaussian Processes}{subsection.4.1}% 8
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Gridding and gap-filling on MODIS data}{subsection.4.1}% 9
-\BOOKMARK [1][-]{section.5}{Methods}{}% 10
-\BOOKMARK [2][-]{subsection.5.1}{Forecast indices and aggregation}{section.5}% 11
-\BOOKMARK [2][-]{subsection.5.2}{Forecasting}{section.5}% 12
-\BOOKMARK [2][-]{subsection.5.3}{Metrics for assessing forecasts}{section.5}% 13
-\BOOKMARK [1][-]{section.6}{Results}{}% 14
-\BOOKMARK [2][-]{subsection.6.1}{Forecast values compared with true values}{section.6}% 15
-\BOOKMARK [2][-]{subsection.6.2}{Drought event forecast: ROC curves}{section.6}% 16
-\BOOKMARK [1][-]{section.7}{Discussion and Conclusion}{}% 17
-\BOOKMARK [1][-]{appendix.A}{Comparison of the two datasets}{}% 18
-\BOOKMARK [1][-]{appendix.B}{Further details on methods}{}% 19
-\BOOKMARK [2][-]{subsection.B.1}{Gaussian process modelling}{appendix.B}% 20
-\BOOKMARK [2][-]{subsection.B.2}{Gaps in processed MODIS data and forecast}{appendix.B}% 21
-\BOOKMARK [3][-]{subsubsection.B.2.1}{Comparison of other possible gap-filling methods}{subsection.B.2}% 22
-\BOOKMARK [1][-]{appendix.C}{Interpolation}{}% 23
-\BOOKMARK [1][-]{appendix.D}{Forecast}{}% 24
-\BOOKMARK [2][-]{subsection.D.1}{Tables of NDVI and VCI3M forecast}{appendix.D}% 25
-\BOOKMARK [2][-]{subsection.D.2}{Assessing forecasting with the inclusion of additional variables}{appendix.D}% 26
+\BOOKMARK [1][-]{section.4}{Methods}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{Forecasting}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Metrics for assessing forecasts}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Results}{}% 9
+\BOOKMARK [2][-]{subsection.5.1}{Forecast values compared with true values}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.2}{Drought event forecast: ROC curves}{section.5}% 11
+\BOOKMARK [1][-]{section.6}{Discussion and Conclusion}{}% 12
+\BOOKMARK [1][-]{appendix.A}{Comparison of the two datasets}{}% 13
+\BOOKMARK [1][-]{appendix.B}{Further details on methods}{}% 14
+\BOOKMARK [2][-]{subsection.B.1}{Gaps in processed MODIS data and forecast}{appendix.B}% 15
+\BOOKMARK [2][-]{subsection.B.2}{Comparison of other possible gap-filling methods}{appendix.B}% 16
+\BOOKMARK [1][-]{appendix.C}{Interpolation}{}% 17
+\BOOKMARK [1][-]{appendix.D}{Forecast}{}% 18
+\BOOKMARK [2][-]{subsection.D.1}{Tables of NDVI and VCI3M forecast}{appendix.D}% 19
+\BOOKMARK [2][-]{subsection.D.2}{Assessing forecasting with the inclusion of additional variables}{appendix.D}% 20

@@ -348,7 +348,7 @@ Due to the presence of non-interpolated gaps in the MODIS time series, there wer
 
 To assess the usefulness of the AR and GP methods for drought forecasting, we tested their ability to detect specific drought events, as defined by the NDMA's alert threshold \citep[VCI3M$<$35,][]{rs8040267}. ROC curves were plotted for the detection of VCI3M$<$35 at lead times of two, four and six weeks (Fig.~\ref{fig:ROC_abb}). These curves show the probability of predicting a state of drought (VCI3M$<$35) when there will be a state of drought, i.e.~hit rate, against the probability of predicting drought when there will not be drought, i.e.~false alarm rate, for varying binarisation thresholds on the forecast. These curves give an indication that one can {\color{green} reliably} forecast droughts with these methods even as far as six weeks ahead. 
 
-The ROC curve performance is not highly dependent on the region (see Table \ref{tab:ROC2}). Even for the wetter Eastern regions, for which observations are sparser due to cloud cover, the hit and false alarm rates only differ by 1 to 2 percentage points compared with those computed across all regions. \edit{Further, ROC curves for predicting the NDMA drought categories of severe} (10$<$VCI3M$<$20) or extreme (VCI$<$10) drought look similar to those for detecting VCI3m$<$35, \edit{see Fig.~\ref{fig:ROCotherdrought}.}  Together, these results demonstrate that there is a {\color{green}strong} potential for drought forecasting {\color{green} using these commonly-used indicators}, and we encourage a future cost-benefit analysis of applying such a forecast in practice.
+The ROC curve performance is not highly dependent on the region (see Table \ref{tab:ROC2}). Even for the wetter Eastern regions, for which observations are sparser due to cloud cover, the hit and false alarm rates only differ by 1 to 2 percentage points compared with those computed across all regions. \edit{Further, ROC curves for predicting the NDMA drought categories of severe} (10$<$VCI3M$<$20) or extreme (VCI$<$10) drought look similar to those for detecting VCI3M$<$35, \edit{see Fig.~\ref{fig:ROCotherdrought}.}  Together, these results demonstrate that there is a {\color{green}strong} potential for drought forecasting {\color{green} using these commonly-used indicators}, and we encourage a future cost-benefit analysis of applying such a forecast in practice.
 
 
 
@@ -377,7 +377,7 @@ The ROC curve performance is not highly dependent on the region (see Table \ref{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Discussion and Conclusion} \label{sec:dis}
 
-This paper highlights the potential of two separate methods for drought forecasting in pastoral regions of Kenya. The linear autoregression models applied to MODIS achieved an $R^2$-score of 0.58 for NDVI anomaly at a lead time of 4 weeks, and an $R^2$-score of 0.95 for the VCI3M, the three-month vegetation condition index used within the drought early warning system developed by the National Drought Management Authority. The Gaussian Processes method was applied to Landsat and achieved an $R^2$-score of 0.36 for NDVI anomaly at a lead time of 4 weeks, and an $R^2$-score of 0.94 for the VCI3M. \edit{In comparison to the results published by \cite{Adede2019}, the $R^2$-scores for VCI3M 4 weeks ahead by both our methods were better than the 1-month VCI3M forecast ($R^2$-scores of 0.78) with their Artificial Neural Network(ANN) approach .} Importantly, both methods showed high sensitivity and specificity for prediction of VCI values indicative of drought, at lead times of 2, 4 and 6 weeks (see Fig.~\ref{fig:ROC_abb}). We have presented results at the level of livelihood zone and county intersections, however both methods can be applied at any suitable spatial unit (e.g., grazing units) due to the high spatial resolution of both satellite datasets.
+This paper highlights the potential of two separate methods for drought forecasting in pastoral regions of Kenya. The linear autoregression models applied to MODIS achieved an $R^2$-score of 0.58 for NDVI anomaly at a lead time of 4 weeks, and an $R^2$-score of 0.95 for the VCI3M, the three-month vegetation condition index used within the drought early warning system developed by the National Drought Management Authority. The Gaussian Processes method was applied to Landsat and achieved an $R^2$-score of 0.36 for NDVI anomaly at a lead time of 4 weeks, and an $R^2$-score of 0.94 for the VCI3M. \edit{In comparison to the results published by \cite{Adede2019}, the $R^2$-scores for VCI3M 4 weeks ahead by both our methods were better than the 1-month VCI3M forecast ($R^2$-scores of 0.78) with their Artificial Neural Network(ANN) approach.} Importantly, both methods showed high sensitivity and specificity for prediction of VCI values indicative of drought, at lead times of 2, 4 and 6 weeks (see Fig.~\ref{fig:ROC_abb}). We have presented results at the level of livelihood zone and county intersections, however both methods can be applied at any suitable spatial unit (e.g., grazing units) due to the high spatial resolution of both satellite datasets.
 
 
 Both methods constitute novel analyses of vegetation index time series. To our knowledge, this is the first time that the GP method for NDVI forecasting has been applied to large amounts of real data and used for gap-filling. We have shown that GPs are a very useful addition to other methods for both these purposes. Similarly, linear AR of NDVI, or of Granger causality of various variables to NDVI, has not previously been explored at a temporal resolution as fine as 1 week. That such substantial $R^2$-scores can be achieved for NDVI anomaly at a lead-time of several weeks just by using the past few observations of NDVI anomaly in a linear AR model is a novel finding. Furthermore we moved beyond fitting a single model, and rather fit models to segments of data, repeatedly using refreshed models to forecast subsequent observations not used in the model fitting (i.e.~we had separation of training and testing models). 
@@ -527,6 +527,14 @@ For the MODIS data, GP, linear interpolation and quadratic interpolation all per
 
 \newpage
 \section{Interpolation}
+
+\begin{figure} 
+	\centering
+	\includegraphics[trim = 30mm 5mm 5mm 15mm,width=8cm]{figures/interp_GP.pdf}
+	\caption{Contour plot of Landsat observed and predicted NDVI values from the GP interpolation.} \label{fig:interp_GP}
+\end{figure}
+
+
 \begin{figure} 
 	\centering
 	\includegraphics[trim = 30mm 5mm 5mm 15mm,width=8cm]{figures/QuadraticInt_contour.pdf} 
